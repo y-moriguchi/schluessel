@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="graphics-all-fonts">GraphicsAllFonts</entry>
+<entry key="graphics-default-screen-device">GraphicsDefaultScreenDevice</entry>
+<entry key="graphics-device-full-screen-set!">GraphicsDeviceFullScreenSetS</entry>
+<entry key="graphics-screen-devices">GraphicsScreenDevices</entry>
+<entry key="graphics-device-full-screen?">IsGraphicsDeviceFullScreen</entry>
+<entry key="graphics-device-full-screen-supported?">IsGraphicsDeviceFullScreenSupported</entry>
+<entry key="graphics-headless?">IsGraphicsHeadless</entry>
+</properties>

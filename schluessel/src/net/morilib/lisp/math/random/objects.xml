@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- number matrix -->
+<entry key="random-source?">IsRandomSource</entry>
+<entry key="make-mersenne-twister-random-source">MakeMersenneTwisterRandomSource</entry>
+<entry key="make-random-source">MakeMersenneTwisterRandomSource</entry>
+<entry key="random-integer">RandomInteger</entry>
+<entry key="random-real">RandomReal</entry>
+<entry key="random-source-make-integers">RandomSourceMakeIntegers</entry>
+<entry key="random-source-make-reals">RandomSourceMakeReals</entry>
+<entry key="random-source-pseudo-randomize!">RandomSourcePseudoRandomizeS</entry>
+<entry key="random-source-randomize!">RandomSourceRandomizeS</entry>
+<entry key="random-source-state-ref">RandomSourceStateRef</entry>
+<entry key="random-source-state-set!">RandomSourceStateSetS</entry>
+</properties>

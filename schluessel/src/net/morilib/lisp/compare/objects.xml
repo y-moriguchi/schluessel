@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="boolean-compare">BooleanCompare</entry>
+<entry key="char-compare">CharCompare</entry>
+<entry key="char-compare-ci">CharCompareCi</entry>
+<entry key="compare-by=/&gt;">CompareByEqGt</entry>
+<entry key="compare-by=/&lt;">CompareByEqLt</entry>
+<entry key="compare-by&gt;=">CompareByGe</entry>
+<entry key="compare-by&gt;">CompareByGt</entry>
+<entry key="compare-by&lt;=">CompareByLe</entry>
+<entry key="compare-by&lt;">CompareByLt</entry>
+<entry key="complex-compare">ComplexCompare</entry>
+<entry key="debug-compare">DebugCompare</entry>
+<entry key="integer-compare">IntegerCompare</entry>
+<entry key="chain=?">IsChainEq</entry>
+<entry key="chain&gt;=?">IsChainGe</entry>
+<entry key="chain&gt;?">IsChainGt</entry>
+<entry key="chain&lt;=?">IsChainLe</entry>
+<entry key="chain&lt;?">IsChainLt</entry>
+<entry key="=?">IsEq</entry>
+<entry key="&gt;=?">IsGe</entry>
+<entry key="&gt;=/&gt;=?">IsGeGe</entry>
+<entry key="&gt;=/&gt;?">IsGeGt</entry>
+<entry key="&gt;?">IsGt</entry>
+<entry key="&gt;/&gt;=?">IsGtGe</entry>
+<entry key="&gt;/&gt;?">IsGtGt</entry>
+<entry key="&lt;=?">IsLe</entry>
+<entry key="&lt;=/&lt;=?">IsLeLe</entry>
+<entry key="&lt;=/&lt;?">IsLeLt</entry>
+<entry key="&lt;?">IsLt</entry>
+<entry key="&lt;/&lt;=?">IsLtLe</entry>
+<entry key="&lt;/&lt;?">IsLtLt</entry>
+<entry key="not=?">IsNotEq</entry>
+<entry key="pairwise-not?">IsPairwiseNot</entry>
+<entry key="kth-largest">KthLargest</entry>
+<entry key="list-compare">ListCompare</entry>
+<entry key="list-compare-as-vector">ListCompareAsVector</entry>
+<entry key="max-compare">MaxCompare</entry>
+<entry key="min-compare">MinCompare</entry>
+<entry key="number-compare">NumberCompare</entry>
+<entry key="pair-compare">PairCompare</entry>
+<entry key="pair-compare-car">PairCompareCar</entry>
+<entry key="pair-compare-cdr">PairCompareCdr</entry>
+<entry key="rational-compare">RationalCompare</entry>
+<entry key="real-compare">RealCompare</entry>
+<entry key="string-compare">StringCompare</entry>
+<entry key="string-compare-ci">StringCompareCi</entry>
+<entry key="symbol-compare">SymbolCompare</entry>
+<entry key="vector-compare">VectorCompare</entry>
+<entry key="vector-compare-as-list">VectorCompareAsList</entry>
+</properties>

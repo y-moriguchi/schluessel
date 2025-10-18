@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- etc -->
+<entry key="make-window-frame">MakeWindowFrame</entry>
+<entry key="make-painter-frame">MakePainterFrame</entry>
+<entry key="make-color">MakeColor</entry>
+<entry key="load-image-painter">LoadImagePainter</entry>
+<entry key="beside-painter">BesidePainterSubr</entry>
+<entry key="below-painter">BelowPainterSubr</entry>
+<entry key="display-painter">DisplayPainter</entry>
+<entry key="draw-line">DrawLine</entry>
+<entry key="draw-oval">DrawOval</entry>
+<entry key="draw-rectangle">DrawRectangle</entry>
+<entry key="draw-image">DrawImage</entry>
+<entry key="fill-oval">FillOval</entry>
+<entry key="fill-rectangle">FillRectangle</entry>
+<entry key="draw-background-line">DrawBackgroundLine</entry>
+<entry key="clear-rectangle">ClearRectangle</entry>
+<entry key="clear-screen">ClearScreen</entry>
+<entry key="draw-string">DrawString</entry>
+<entry key="set-current-color!">SetCurrentColorS</entry>
+<entry key="get-frame-coordinate-x">SchlushFrame$GetFrameCoordinateX</entry>
+<entry key="get-frame-coordinate-y">SchlushFrame$GetFrameCoordinateY</entry>
+<entry key="draw-with-transform">DrawWithTransform</entry>
+<!-- <entry key="set-enable-double-buffering!">
+  SchlushJPanelFrame$SetEnableDoubleBufferingS
+</entry> -->
+<entry key="write-image-file">WriteImageFile</entry>
+<!-- fonts -->
+<entry key="derive-font">DeriveFont</entry>
+<entry key="get-string-bounds">GetStringBounds</entry>
+<entry key="make-font">MakeFont</entry>
+<entry key="rotate-font">RotateFont</entry>
+<entry key="transform-font">TransformFont</entry>
+</properties>

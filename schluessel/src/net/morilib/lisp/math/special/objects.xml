@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- special functions -->
+<entry key="gamma">Gamma</entry>
+<entry key="besselJ">BesselJ</entry>
+<entry key="besselY">BesselY</entry>
+<entry key="besselI">BesselI</entry>
+<entry key="besselK">BesselK</entry>
+</properties>

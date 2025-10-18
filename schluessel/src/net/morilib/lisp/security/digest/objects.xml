@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="file-&gt;hexified-message-digest">FileToHexifiedMessageDigest</entry>
+<entry key="file-&gt;message-digest">FileToMessageDigest</entry>
+<entry key="hexify-message-digest">HexifyMessageDigest</entry>
+<entry key="string-&gt;hexified-message-digest">StringToHexifiedMessageDigest</entry>
+<entry key="string-&gt;message-digest">StringToMessageDigest</entry>
+</properties>

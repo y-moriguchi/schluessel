@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="deserialize-datum">DeserializeDatum</entry>
+<entry key="export-datum">ExportDatum</entry>
+<entry key="export-datum-xml">ExportDatumXml</entry>
+<entry key="guess-serialize-file">GuessSerializeFile</entry>
+<entry key="import-datum">ImportDatum</entry>
+<entry key="import-datum-xml">ImportDatumXml</entry>
+<entry key="serializable?">IsSerializable</entry>
+<entry key="serialize-datum">SerializeDatum</entry>
+</properties>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="available-locales">AvailableLocales</entry>
+<entry key="current-country">CurrentCountry</entry>
+<entry key="current-language">CurrentLanguage</entry>
+<entry key="current-locale">CurrentLocale</entry>
+<entry key="current-locale-details">CurrentLocaleDetails</entry>
+<entry key="iso-countries">IsoCountries</entry>
+<entry key="iso-languages">IsoLanguages</entry>
+<entry key="locale-country">LocaleCountry</entry>
+<entry key="locale-country-name">LocaleCountryName</entry>
+<entry key="locale-iso3-country">LocaleIso3Country</entry>
+<entry key="locale-iso3-language">LocaleIso3Language</entry>
+<entry key="locale-language">LocaleLanguage</entry>
+<entry key="locale-language-name">LocaleLanguageName</entry>
+<entry key="locale-variant">LocaleVariant</entry>
+<entry key="locale-variant-name">LocaleVariantName</entry>
+<entry key="make-locale">MakeLocale</entry>
+<entry key="locale">SynLocale</entry>
+</properties>

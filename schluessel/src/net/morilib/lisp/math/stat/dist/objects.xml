@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- distribution -->
+<entry key="cdf-&gt;list">CdfToList</entry>
+<entry key="distribution-expected-value">DistributionExpectedValue</entry>
+<entry key="distribution-kurtosis">DistributionKurtosis</entry>
+<entry key="distribution-median">DistributionMedian</entry>
+<entry key="distribution-mode">DistributionMode</entry>
+<entry key="distribution-p=">DistributionPEq</entry>
+<entry key="distribution-p&gt;">DistributionPGt</entry>
+<entry key="distribution-p&lt;">DistributionPLt</entry>
+<entry key="distribution-skewness">DistributionSkewness</entry>
+<entry key="distribution-variance">DistributionVariance</entry>
+<entry key="make-binomial-distribution">MakeBinomialDistribution</entry>
+<entry key="make-chi-squared-distribution">MakeChiSquaredDistribution</entry>
+<entry key="make-continuous-uniform-distribution">MakeContinuousUniformDistribution</entry>
+<entry key="make-discrete-uniform-distribution">MakeDiscreteUniformDistribution</entry>
+<entry key="make-erlang-distribution">MakeErlangDistribution</entry>
+<entry key="make-exponential-distribution">MakeExponentialDistribution</entry>
+<entry key="make-gamma-distribution">MakeGammaDistribution</entry>
+<entry key="make-normal-distribution">MakeNormalDistribution</entry>
+<entry key="make-poisson-distribution">MakePoissonDistribution</entry>
+<entry key="make-t-distribution">MakeTDistribution</entry>
+<entry key="pdf-&gt;list">PdfToList</entry>
+</properties>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="lr-table-accept?">IsLrTableAccept</entry>
+<entry key="lr-table-conflict-list">LrTableConflictList</entry>
+<entry key="lr-table-goto">LrTableGoto</entry>
+<entry key="lr-table-initial-state">LrTableInitialState</entry>
+<entry key="lr-table-reduce">LrTableReduce</entry>
+<entry key="lr-table-reduce-list">LrTableReduceList</entry>
+<entry key="lr-table-shift">LrTableShift</entry>
+<entry key="make-lalr1-automaton">MakeLalr1Automaton</entry>
+<entry key="make-lr0-automaton">MakeLr0Automaton</entry>
+<entry key="make-lr1-table">MakeLr1Table</entry>
+<entry key="make-lr-parser">MakeLrParser</entry>
+<entry key="propergate-lookahead">PropergateLookahead</entry>
+</properties>

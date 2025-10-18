@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="jlist-selected-value-list">JlistSelectedValueList</entry>
+<entry key="jlist-selection-mode">JlistSelectionMode</entry>
+<entry key="jlist-selection-mode-set!">JlistSelectionModeSetS</entry>
+<entry key="make-jlist">MakeJlist</entry>
+</properties>

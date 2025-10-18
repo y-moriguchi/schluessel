@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="dfa-reachable-states">DfaReachableStates</entry>
+<entry key="dfa?">IsDfa</entry>
+<entry key="dfa-empty?">IsDfaEmpty</entry>
+<entry key="dfa-equivalent?">IsDfaEquivalent</entry>
+<entry key="dfa-state?">IsDfaState</entry>
+<entry key="dfa-state-equivalent?">IsDfaStateEquivalent</entry>
+<entry key="match-dfa?">IsMatchDfa</entry>
+<entry key="moore-machine?">IsMooreMachine</entry>
+<entry key="make-dfa-from-table">MakeDfaFromTable</entry>
+<entry key="make-moore-machine-from-table">MakeMooreMachineFromTable</entry>
+<entry key="make-parallel-dfa">MakeParallelDfa</entry>
+<entry key="match-moore-machine">MatchMooreMachine</entry>
+</properties>

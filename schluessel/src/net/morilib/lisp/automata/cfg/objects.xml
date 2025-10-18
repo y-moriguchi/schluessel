@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="cfg-eliminate-epsilon-rules">CfgEliminateEpsilonRules</entry>
+<entry key="cfg-eliminate-left-recursion">CfgEliminateLeftRecursion</entry>
+<entry key="cfg-eliminate-unit-rules">CfgEliminateUnitRules</entry>
+<entry key="cfg-find-rules-left-value">CfgFindRulesLeftValue</entry>
+<entry key="cfg-first">CfgFirst</entry>
+<entry key="cfg-follow">CfgFollow</entry>
+<entry key="cfg-left-factor">CfgLeftFactor</entry>
+<entry key="cfg-rule-left-value">CfgRuleLeftValue</entry>
+<entry key="cfg-rule-right-values">CfgRuleRightValues</entry>
+<entry key="cfg-terminals">CfgTerminals</entry>
+<entry key="cfg-member-cyk?">IsCfgMemberCyk</entry>
+<entry key="cfg-nullable?">IsCfgNullable</entry>
+<entry key="cfg-valid?">IsCfgValid</entry>
+<entry key="cfg-variable-nullable?">IsCfgVariableNullable</entry>
+<entry key="convert-chomsky-normal-form">ConvertChomskyNormalForm</entry>
+<entry key="make-cfg">MakeCfg</entry>
+</properties>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="*O*">net.morilib.lisp.topology.LispNumberClassTopology.O</entry>
+<entry key="*H*">net.morilib.lisp.topology.LispNumberClassTopology.H</entry>
+<entry key="*C*">net.morilib.lisp.topology.LispNumberClassTopology.C</entry>
+<entry key="*R*">net.morilib.lisp.topology.LispNumberClassTopology.R</entry>
+<entry key="*Q*">net.morilib.lisp.topology.LispNumberClassTopology.Q</entry>
+<entry key="*Z*">net.morilib.lisp.topology.LispNumberClassTopology.Z</entry>
+<entry key="*N*">net.morilib.lisp.topology.LispNumberClassTopology.N</entry>
+<entry key="*N+*">net.morilib.lisp.topology.LispNumberClassTopology.NPLUS</entry>
+<entry key="*all-chars*">net.morilib.lisp.topology.LispAllAtomsTopology.ALL_CHARS</entry>
+<entry key="*all-strings*">net.morilib.lisp.topology.LispAllAtomsTopology.ALL_STRINGS</entry>
+<!-- 
+<entry key="*all-callables*">net.morilib.lisp.topology.LispAllAtomsTopology.ALL_CALLABLES</entry>
+<entry key="*all-procedures*">net.morilib.lisp.topology.LispAllAtomsTopology.ALL_PROCEDURES</entry>
+<entry key="*all-closures*">net.morilib.lisp.topology.LispAllAtomsTopology.ALL_CLOSURES</entry>
+-->
+</properties>

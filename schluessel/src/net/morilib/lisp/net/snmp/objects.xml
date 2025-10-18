@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="oid?">IsOid</entry>
+<entry key="list-&gt;oid">ListToOid</entry>
+<entry key="oid">Oid</entry>
+<entry key="oid-&gt;string">OidToString</entry>
+<entry key="snmp-get">SnmpGet</entry>
+<entry key="snmp-get-next">SnmpGetNext</entry>
+<entry key="snmp-walk">SnmpWalk</entry>
+<entry key="string-&gt;oid">StringToOid</entry>
+</properties>

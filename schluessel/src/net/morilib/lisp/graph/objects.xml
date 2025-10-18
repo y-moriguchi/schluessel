@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- graphs -->
+<entry key="add-graph-edge">AddGraphEdge</entry>
+<entry key="add-graph-vertex">AddGraphVertex</entry>
+<entry key="get-cycle">GetCycle</entry>
+<entry key="get-graph-vertex">GetGraphVertex</entry>
+<entry key="graph-vertex-edges">GraphVertexEdges</entry>
+<entry key="graph-vertices">GraphVertices</entry>
+<entry key="has-cycle?">IsHasCycle</entry>
+<entry key="make-directed-graph">MakeDirectedGraph</entry>
+<entry key="make-indirected-graph">MakeIndirectedGraph</entry>
+<entry key="next-graph-vertex">NextGraphVertex</entry>
+</properties>

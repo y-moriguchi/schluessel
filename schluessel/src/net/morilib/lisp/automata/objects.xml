@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="convert-kuroda-normal-form">ConvertKurodaNormalForm</entry>
+<entry key="endmarker">Endmarker</entry>
+<entry key="epsilon">Epsilon</entry>
+<entry key="formal-grammar-rule-left-values">FormalGrammarRuleLeftValues</entry>
+<entry key="formal-grammar-rule-right-values">FormalGrammarRuleRightValues</entry>
+<entry key="formal-grammar-rules">FormalGrammarRules</entry>
+<entry key="grammar-variable">GrammarVariable</entry>
+<entry key="grammar-variables">GrammarVariables</entry>
+<entry key="grammar-start-variable">GrammarStartVariable</entry>
+<entry key="gvar">GrammarVariable</entry>
+<entry key="initial-state">InitialState</entry>
+<entry key="accept?">IsAccept</entry>
+<entry key="accepted-state?">IsAcceptedState</entry>
+<entry key="context-free?">IsContextFree</entry>
+<entry key="context-sensitive?">IsContextSensitive</entry>
+<entry key="dead-state?">IsDeadState</entry>
+<entry key="initial-state?">IsInitialState</entry>
+<entry key="monotonic-grammar?">IsMonotonicGrammar</entry>
+<entry key="regular-grammar?">IsRegularGrammar</entry>
+<entry key="state?">IsState</entry>
+<entry key="make-generic-grammar">MakeGenericGrammar</entry>
+<entry key="-&gt;cfg">ToCfg</entry>
+<entry key="transit">Transit</entry>
+<entry key="transit-datum">TransitDatum</entry>
+<entry key="transit-datum!">TransitDatumS</entry>
+<entry key="transit!">TransitS</entry>
+</properties>

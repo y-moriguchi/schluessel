@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="current-calendar">CurrentCalendar</entry>
+<entry key="current-gregorian-calendar">CurrentGregorianCalendar</entry>
+<entry key="current-julian-calendar">CurrentJulianCalendar</entry>
+<entry key="current-mesoamerican-long-count-calendar">CurrentMesoamericanLongCountCalendar</entry>
+<entry key="day+">DayAddere</entry>
+<entry key="day-from-epoch">DayFromEpoch</entry>
+<entry key="day-">DaySub</entry>
+<entry key="day-&gt;julian-day">DayToJulianDay</entry>
+<entry key="day-&gt;lilian-day">DayToLilianDay</entry>
+<entry key="day-&gt;modified-julian-day">DayToModifiedJulianDay</entry>
+<entry key="gregorian-calendar">GregorianCalendar</entry>
+<entry key="julian-calendar">JulianCalendar</entry>
+<entry key="solar-calendar-day-of-month">SolarCalendarDayOfMonth</entry>
+<entry key="solar-calendar-day-of-year">SolarCalendarDayOfYear</entry>
+<entry key="solar-calendar-month">SolarCalendarDayMonth</entry>
+<entry key="solar-calendar-year">SolarCalendarDayYear</entry>
+<entry key="anno-domini">SubrAnnoDomini</entry>
+<entry key="mesoamerican-long-count-calendar">SubrMesoamericanLongCountCalendar</entry>
+<entry key="week-calendar-day-of-week">WeekCalendarDayOfWeek</entry>
+</properties>

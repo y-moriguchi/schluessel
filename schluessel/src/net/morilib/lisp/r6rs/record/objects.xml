@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- R6RS compatible -->
+<entry key="record?">IsRecord</entry>
+<entry key="record-field-mutable?">IsRecordFieldMutable</entry>
+<entry key="record-type-descriptor?">IsRecordTypeDescriptor</entry>
+<entry key="record-type-generative?">IsRecordTypeGenerative</entry>
+<entry key="record-type-opaque?">IsRecordTypeOpaque</entry>
+<entry key="record-type-sealed?">IsRecordTypeSealed</entry>
+<entry key="make-record-constructor-descriptor">MakeRecordConstructorDescriptor</entry>
+<entry key="make-record-type-descriptor">MakeRecordTypeDescriptor</entry>
+<entry key="record-accessor">RecordAccessor</entry>
+<entry key="record-constructor">RecordConstructor</entry>
+<entry key="record-mutator">RecordMutator</entry>
+<entry key="record-predicate">RecordPredicate</entry>
+<entry key="record-ref">RecordRef</entry>
+<entry key="record-rtd">RecordRtd</entry>
+<entry key="record-set!">RecordSetS</entry>
+<entry key="record-type-field-names">RecordTypeFieldNames</entry>
+<entry key="record-type-name">RecordTypeName</entry>
+<entry key="record-type-parent">RecordTypeParent</entry>
+<entry key="record-type-uid">RecordTypeUid</entry>
+</properties>

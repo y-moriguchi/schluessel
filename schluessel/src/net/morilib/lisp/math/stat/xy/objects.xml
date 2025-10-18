@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="correlation-coefficient">CorrelationCoefficient</entry>
+<entry key="covariance">Covariance</entry>
+<entry key="error-term">ErrorTerm</entry>
+<entry key="linear-regression">LinearRegression</entry>
+</properties>

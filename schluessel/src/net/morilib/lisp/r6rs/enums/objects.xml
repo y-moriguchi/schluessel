@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="enum-set-complement">EnumSetComplement</entry>
+<entry key="enum-set-constructor">EnumSetConstructor</entry>
+<entry key="enum-set-difference">EnumSetDifference</entry>
+<entry key="enum-set-indexer">EnumSetIndexer</entry>
+<entry key="enum-set-intersection">EnumSetIntersection</entry>
+<entry key="enum-set-projection">EnumSetProjection</entry>
+<entry key="enum-set-&gt;list">EnumSetToList</entry>
+<entry key="enum-set-union">EnumSetUnion</entry>
+<entry key="enum-set-universe">EnumSetUniverse</entry>
+<entry key="enum-set=?">IsEnumSetEq</entry>
+<entry key="enum-set-member?">IsEnumSetMember</entry>
+<entry key="enum-set-subset?">IsEnumSetSubset</entry>
+<entry key="make-enumeration">MakeEnumeration</entry>
+</properties>

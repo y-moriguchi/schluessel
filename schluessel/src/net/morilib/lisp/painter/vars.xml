@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="*color-black*">net.morilib.lisp.painter.SchlushColor.BLACK</entry>
+<entry key="*color-blue*">net.morilib.lisp.painter.SchlushColor.BLUE</entry>
+<entry key="*color-cyan*">net.morilib.lisp.painter.SchlushColor.CYAN</entry>
+<entry key="*color-dark-gray*">net.morilib.lisp.painter.SchlushColor.DARK_GRAY</entry>
+<entry key="*color-gray*">net.morilib.lisp.painter.SchlushColor.GRAY</entry>
+<entry key="*color-green*">net.morilib.lisp.painter.SchlushColor.GREEN</entry>
+<entry key="*color-light-gray*">net.morilib.lisp.painter.SchlushColor.LIGHT_GRAY</entry>
+<entry key="*color-magenta*">net.morilib.lisp.painter.SchlushColor.MAGENTA</entry>
+<entry key="*color-orange*">net.morilib.lisp.painter.SchlushColor.ORANGE</entry>
+<entry key="*color-pink*">net.morilib.lisp.painter.SchlushColor.PINK</entry>
+<entry key="*color-red*">net.morilib.lisp.painter.SchlushColor.RED</entry>
+<entry key="*color-white*">net.morilib.lisp.painter.SchlushColor.WHITE</entry>
+<entry key="*color-yellow*">net.morilib.lisp.painter.SchlushColor.YELLOW</entry>
+<!-- fonts -->
+<entry key="*plain-font*">net.morilib.lisp.painter.SchlushFont.PLAIN</entry>
+<entry key="*bold-font*">net.morilib.lisp.painter.SchlushFont.BOLD</entry>
+<entry key="*italic-font*">net.morilib.lisp.painter.SchlushFont.ITALIC</entry>
+<entry key="*bold-italic-font*">net.morilib.lisp.painter.SchlushFont.BOLD_ITALIC</entry>
+</properties>

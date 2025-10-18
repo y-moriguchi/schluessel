@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="close-zip-file">CloseZipFile</entry>
+<entry key="extract-zip-entry">ExtractZipEntry</entry>
+<entry key="gzip-file-input-port">GzipFileInputPort</entry>
+<entry key="gzip-file-output-port">GzipFileOutputPort</entry>
+<entry key="zip-entry-directory?">IsZipEntryDirectory</entry>
+<entry key="open-zip-file">OpenZipFile</entry>
+<entry key="zip-entry-comment">ZipEntryComment</entry>
+<entry key="zip-entry-compressed-size">ZipEntryCompressedSize</entry>
+<entry key="zip-entry-crc">ZipEntryCrc</entry>
+<entry key="zip-entry-method">ZipEntryMethod</entry>
+<entry key="zip-entry-name">ZipEntryName</entry>
+<entry key="zip-entry-size">ZipEntrySize</entry>
+<entry key="zip-entry-time">ZipEntryTime</entry>
+<entry key="zip-file-entries">ZipFileEntries</entry>
+<entry key="zip-file-entry">ZipFileEntry</entry>
+<entry key="zip-file-input-port">ZipFileInputPort</entry>
+</properties>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- OS information -->
+<entry key="guess-os">GuessOs</entry>
+<entry key="os-bsd?">IsOsBsd</entry>
+<entry key="os-linux?">IsOsLinux</entry>
+<entry key="os-mac?">IsOsMac</entry>
+<entry key="os-unix?">IsOsUnix</entry>
+<entry key="os-windows?">IsOsWindows</entry>
+<entry key="os-windows-server?">IsOsWindowsServer</entry>
+<!-- versions -->
+<entry key="version-sub?">IsVersionSub</entry>
+<entry key="version-super?">IsVersionSuper</entry>
+<entry key="java-version">JavaVersion</entry>
+<entry key="scheme-version">SchemeVersion</entry>
+<entry key="string-&gt;version">StringToVersion</entry>
+<entry key="version">SubrVersion</entry>
+<entry key="version&gt;=">VersionGe</entry>
+<entry key="version&gt;">VersionGt</entry>
+<entry key="version&lt;=">VersionLe</entry>
+<entry key="version&lt;">VersionLt</entry>
+<entry key="version-&gt;string">VersionToString</entry>
+</properties>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="disconnect-http">DisconnectHttp</entry>
+<entry key="http-connect">HttpConnect</entry>
+<entry key="http-content-encoding">HttpContentEncoding</entry>
+<entry key="http-content-length">HttpContentLength</entry>
+<entry key="http-content-type">HttpContentType</entry>
+<entry key="http-date">HttpDate</entry>
+<entry key="http-expiration">HttpExpiration</entry>
+<entry key="http-headers">HttpHeaders</entry>
+<entry key="http-input-port">HttpInputPort</entry>
+<entry key="http-last-modified">HttpLastModified</entry>
+<entry key="http-properties-set!">HttpPropertiesSetS</entry>
+<entry key="make-http-connection">MakeHttpConnection</entry>
+<entry key="open-http-input-port">OpenHttpInputPort</entry>
+<entry key="post-http-parameter">PostHttpParameter</entry>
+<entry key="web-get">WebGet</entry>
+</properties>

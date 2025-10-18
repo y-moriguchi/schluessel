@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="uri-absolute?">IsUriAbsolute</entry>
+<entry key="uri-opaque?">IsUriOpaque</entry>
+<entry key="make-uri">MakeUri</entry>
+<entry key="normalize-uri">NormalizeUri</entry>
+<entry key="parse-uri-server-authority">ParseUriServerAuthority</entry>
+<entry key="relativize-uri">RelativizeUri</entry>
+<entry key="resolve-uri">ResolveUri</entry>
+<entry key="string-&gt;uri">StringToUri</entry>
+<entry key="uri-authority">UriAuthority</entry>
+<entry key="uri-fragment">UriFragment</entry>
+<entry key="uri-host">UriHost</entry>
+<entry key="uri-path">UriPath</entry>
+<entry key="uri-port">UriPort</entry>
+<entry key="uri-query">UriQuery</entry>
+<entry key="uri-raw-authority">UriRawAuthority</entry>
+<entry key="uri-raw-fragment">UriRawFragment</entry>
+<entry key="uri-raw-path">UriRawPath</entry>
+<entry key="uri-raw-query">UriRawQuery</entry>
+<entry key="uri-raw-scheme-specific-part">UriRawSchemeSpecificPart</entry>
+<entry key="uri-raw-user-info">UriRawUserInfo</entry>
+<entry key="uri-scheme">UriScheme</entry>
+<entry key="uri-scheme-specific-part">UriSchemeSpecificPart</entry>
+<entry key="uri-&gt;ascii-string">UriToAsciiString</entry>
+<entry key="uri-user-info">UriUserInfo</entry>
+</properties>

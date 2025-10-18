@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="number-&gt;english-numeral">NumberToEnglishNumeral</entry>
+<entry key="english-numeral-&gt;number">EnglishNumeralToNumber</entry>
+<entry key="number-&gt;french-numeral">NumberToFrenchNumeral</entry>
+<entry key="french-numeral-&gt;number">FrenchNumeralToNumber</entry>
+<entry key="number-&gt;german-numeral">NumberToGermanNumeral</entry>
+<entry key="german-numeral-&gt;number">GermanNumeralToNumber</entry>
+<entry key="number-&gt;ionian-numeral">NumberToIonianNumeral</entry>
+<entry key="ionian-numeral-&gt;number">IonianNumeralToNumber</entry>
+<entry key="number-&gt;roman-numeral">NumberToRomanNumeral</entry>
+<entry key="roman-numeral-&gt;number">RomanNumeralToNumber</entry>
+<entry key="group-number-by-kanji">GroupNumberByKanji</entry>
+<entry key="ungroup-number-by-kanji">UngroupNumberByKanji</entry>
+<entry key="number-&gt;big-roman-numeral">NumberToBigRomanNumeral</entry>
+<entry key="big-roman-numeral-&gt;number">BigRomanNumeralToNumber</entry>
+<entry key="number-&gt;latin-numeral">NumberToLatinNumeral</entry>
+<entry key="latin-numeral-&gt;number">LatinNumeralToNumber</entry>
+</properties>

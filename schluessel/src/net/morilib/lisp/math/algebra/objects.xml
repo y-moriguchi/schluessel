@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- polynomial1 -->
+<entry key="addable?">IsAddable</entry>
+<entry key="algebraic-integer?">IsAlgebraicInteger</entry>
+<entry key="dividable?">IsDividable</entry>
+<entry key="field?">IsField</entry>
+<entry key="invertable?">IsInvertable</entry>
+<entry key="multipliable?">IsMultipliable</entry>
+<entry key="negatable?">IsNegatable</entry>
+<entry key="remainder?">IsRemainder</entry>
+<entry key="ring?">IsRing</entry>
+<entry key="subtractable?">IsSubtractable</entry>
+</properties>

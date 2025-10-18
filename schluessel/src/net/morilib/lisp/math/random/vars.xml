@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="default-random-source">
+  net.morilib.lisp.math.random.RandomSourceUtils.DEFAULT
+</entry>
+</properties>

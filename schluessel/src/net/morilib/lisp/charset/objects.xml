@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="adjoin-char-set-builder!">AdjoinCharSetBuilderS</entry>
+<entry key="builder-&gt;char-set">BuilderToCharSet</entry>
+<entry key="char-set">CharSet</entry>
+<entry key="char-set-adjoin">CharSetAdjoin</entry>
+<entry key="char-set-adjoin!">CharSetAdjoinS</entry>
+<entry key="char-set-complement">CharSetComplement</entry>
+<entry key="char-set-complement!">CharSetComplementS</entry>
+<entry key="char-set-copy">CharSetCopy</entry>
+<entry key="char-set-cursor">CharSetCursor</entry>
+<entry key="char-set-cursor-next">CharSetCursorNext</entry>
+<entry key="char-set-delete">CharSetDelete</entry>
+<entry key="char-set-delete!">CharSetDeleteS</entry>
+<entry key="char-set-difference">CharSetDifference</entry>
+<entry key="char-set-difference!">CharSetDifferenceS</entry>
+<entry key="char-set-diff+intersection">CharSetDiffPlusIntersection</entry>
+<entry key="char-set-diff+intersection!">CharSetDiffPlusIntersectionS</entry>
+<entry key="char-set=">CharSetEqual</entry>
+<entry key="char-set-hash">CharSetHash</entry>
+<entry key="char-set-intersection">CharSetIntersection</entry>
+<entry key="char-set-intersection!">CharSetIntersectionS</entry>
+<entry key="char-set&lt;=">CharSetLessEq</entry>
+<entry key="char-set-ref">CharSetRef</entry>
+<entry key="char-set-size">CharSetSize</entry>
+<entry key="char-set-&gt;list">CharSetToList</entry>
+<entry key="char-set-&gt;string">CharSetToString</entry>
+<entry key="char-set-union">CharSetUnion</entry>
+<entry key="char-set-union!">CharSetUnionS</entry>
+<entry key="char-set-xor">CharSetXor</entry>
+<entry key="char-set-xor!">CharSetXorS</entry>
+<entry key="char-set?">IsCharSet</entry>
+<entry key="char-set-contains?">IsCharSetContains</entry>
+<entry key="end-of-char-set?">IsEndOfCharSet</entry>
+<entry key="list-&gt;char-set">ListToCharSet</entry>
+<entry key="list-&gt;char-set!">ListToCharSetS</entry>
+<entry key="make-char-set">MakeCharSet</entry>
+<entry key="make-char-set-builder">MakeCharSetBuilder</entry>
+<entry key="string-&gt;char-set">StringToCharSet</entry>
+<entry key="string-&gt;char-set!">StringToCharSetS</entry>
+<entry key="-&gt;char-set">ToCharSet</entry>
+<entry key="ucs-range-&gt;char-set">UcsRangeToCharSet</entry>
+<entry key="ucs-range-&gt;char-set!">UcsRangeToCharSetS</entry>
+</properties>

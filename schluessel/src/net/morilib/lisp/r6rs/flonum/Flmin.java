@@ -1,0 +1,41 @@
+/*
+ * Copyright 2009-2010 Yuichiro Moriguchi
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package net.morilib.lisp.r6rs.flonum;
+
+/**
+ *
+ *
+ * @author MORIGUCHI, Yuichiro 2012/08/31
+ */
+public class Flmin extends AbstractFlonumOp {
+
+	/* (non-Javadoc)
+	 * @see net.morilib.lisp.r6rs.flonum.AbstractFlonumOp#op(double, double)
+	 */
+	@Override
+	protected double op(double r, double s) {
+		return (r < s) ? r : s;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.lisp.r6rs.flonum.AbstractFlonumOp#init()
+	 */
+	@Override
+	protected double init() {
+		return Double.POSITIVE_INFINITY;
+	}
+
+}

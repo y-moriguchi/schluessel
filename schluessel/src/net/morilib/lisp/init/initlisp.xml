@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="00_R5RS">/net/morilib/lisp/init/r5rs.scm</entry>
+<entry key="01_exinit1">/net/morilib/lisp/exlib/exinit1.scm</entry>
+<!-- <entry key="02_SOS">/net/morilib/lisp/sos/sos.scm</entry> -->
+<entry key="02_SRFI-9">/net/morilib/lisp/sos/srfi-9.scm</entry>
+<entry key="03_R6RS">/net/morilib/lisp/r6rs/r6rs.scm</entry>
+<entry key="04_SRFI-4">/net/morilib/lisp/uvector/srfi-4.scm</entry>
+<entry key="05_FILE">/net/morilib/lisp/file/file.scm</entry>
+<entry key="06_COLLECTION">/net/morilib/lisp/collection/collections.scm</entry>
+<entry key="07_SRFI-67">/net/morilib/lisp/compare/srfi-67.scm</entry>
+<entry key="08_CONDITION">/net/morilib/lisp/condition/condition.scm</entry>
+<entry key="09_CHARSET">/net/morilib/lisp/charset/charset.scm</entry>
+<entry key="10_ITERATOR">/net/morilib/lisp/iterator/iterator.scm</entry>
+</properties>

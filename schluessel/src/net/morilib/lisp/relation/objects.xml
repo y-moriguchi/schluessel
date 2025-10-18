@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="get-result-bag-row">GetResultBagRow</entry>
+<entry key="get-result-bag-row-list">GetResultBagRowList</entry>
+<entry key="next-result-bag">NextResultBag</entry>
+<entry key="end-result-bag?">IsEndResultBag</entry>
+<entry key="row-ref">RowRef</entry>
+</properties>

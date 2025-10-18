@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- SRFI-0 -->
+<entry key="define-feature">net.morilib.lisp.LispFeature$SynDefineFeature</entry>
+<entry key="feature-exist?">net.morilib.lisp.LispFeature$IsFeatureExist</entry>
+<entry key="apply-feature">net.morilib.lisp.LispFeature$ApplyFeature</entry>
+<!-- SRFI-6 -->
+<entry key="open-input-string">
+  net.morilib.lisp.ExSubrOpenInputString
+</entry>
+<entry key="open-output-string">
+  net.morilib.lisp.ExSubrOpenOutputString
+</entry>
+<entry key="get-output-string">
+  net.morilib.lisp.ExSubrGetOutputString
+</entry>
+<!-- SRFI-7 -->
+<entry key="apply-features">net.morilib.lisp.LispFeature$ApplyFeatures</entry>
+<entry key="feature-and">net.morilib.lisp.LispFeature$FeatureAnd</entry>
+<entry key="feature-or">net.morilib.lisp.LispFeature$FeatureOr</entry>
+<entry key="feature-not">net.morilib.lisp.LispFeature$FeatureNot</entry>
+<!-- SRFI-10 -->
+<entry key="define-reader-ctor">DefineReaderCtor</entry>
+<entry key="lookup-reader-ctor">DefineReaderCtor$LookupReaderCtor</entry>
+<!-- SRFI-17 -->
+<entry key="setter">
+  net.morilib.lisp.ExSubrSetter
+</entry>
+<!-- SRFI-18 -->
+<entry key="current-thread">net.morilib.lisp.LispThread$CurrentThread</entry>
+<entry key="thread?">net.morilib.lisp.LispThread$IsThread</entry>
+<entry key="make-thread">net.morilib.lisp.LispThread$MakeThread</entry>
+<entry key="thread-name">net.morilib.lisp.LispThread$ThreadName</entry>
+<entry key="thread-specific">net.morilib.lisp.LispThread$ThreadSpecific</entry>
+<entry key="thread-specific-set!">net.morilib.lisp.LispThread$ThreadSpecificSetS</entry>
+<entry key="thread-start!">net.morilib.lisp.LispThread$ThreadStartS</entry>
+<entry key="thread-yield!">net.morilib.lisp.LispThread$ThreadYieldS</entry>
+<entry key="thread-sleep!">net.morilib.lisp.LispThread$ThreadSleepS</entry>
+<entry key="thread-terminate!">net.morilib.lisp.LispThread$ThreadTerminateS</entry>
+<entry key="thread-join!">net.morilib.lisp.LispThread$ThreadJoinS</entry>
+<entry key="mutex?">net.morilib.lisp.LispThread$IsMutex</entry>
+<entry key="make-mutex">net.morilib.lisp.LispThread$MakeMutex</entry>
+<entry key="mutex-name">net.morilib.lisp.LispThread$MutexName</entry>
+<entry key="mutex-specific">net.morilib.lisp.LispThread$MutexSpecific</entry>
+<entry key="mutex-specific-set!">net.morilib.lisp.LispThread$MutexSpecificSetS</entry>
+<entry key="mutex-state">net.morilib.lisp.LispThread$MutexState</entry>
+<entry key="mutex-lock!">net.morilib.lisp.LispThread$MutexLockS</entry>
+<entry key="mutex-unlock!">net.morilib.lisp.LispThread$MutexUnlockS</entry>
+<entry key="condition-variable?">net.morilib.lisp.LispThread$IsConditionVariable</entry>
+<entry key="make-condition-variable">net.morilib.lisp.LispThread$MakeConditionVariable</entry>
+<entry key="condition-variable-name">net.morilib.lisp.LispThread$ConditionVariableName</entry>
+<entry key="condition-variable-specific">net.morilib.lisp.LispThread$ConditionVariableSpecific</entry>
+<entry key="condition-variable-specific-set!">net.morilib.lisp.LispThread$ConditionVariableSpecificSetS</entry>
+<entry key="condition-variable-signal!">net.morilib.lisp.LispThread$ConditionVariableSignalS</entry>
+<entry key="condition-variable-broadcast!">net.morilib.lisp.LispThread$ConditionVariableBroadcastS</entry>
+<entry key="time->seconds">net.morilib.lisp.LispThread$TimeToSeconds</entry>
+<entry key="seconds->time">net.morilib.lisp.LispThread$SecondsToTime</entry>
+<entry key="current-exception-handler">net.morilib.lisp.LispThread$CurrentExceptionHandler</entry>
+<entry key="join-timeout-exception?">net.morilib.lisp.LispThread$IsJoinTimeoutException</entry>
+<entry key="abandoned-mutex-exception?">net.morilib.lisp.LispThread$IsAbandonedMutexException</entry>
+<entry key="terminated-thread-exception?">net.morilib.lisp.LispThread$IsTerminatedThreadException</entry>
+<entry key="uncaught-exception?">net.morilib.lisp.LispThread$IsUncaughtException</entry>
+<entry key="uncaught-exception-reason">net.morilib.lisp.LispThread$UncaughtExceptionReason</entry>
+<!-- SRFI-28 -->
+<entry key="format">LispFormatSubr</entry>
+<!-- SRFI-34 -->
+<entry key="with-exception-handler">
+  net.morilib.lisp.SRFI34$WithExceptionHandler
+</entry>
+<entry key="raise">
+  net.morilib.lisp.SRFI34$Raise
+</entry>
+<!-- SRFI-37 -->
+<entry key="option">net.morilib.lisp.SRFI37$Option</entry>
+<entry key="option-names">net.morilib.lisp.SRFI37$OptionNames</entry>
+<entry key="option-required-arg?">net.morilib.lisp.SRFI37$IsOptionRequiredArg</entry>
+<entry key="option-optional-arg?">net.morilib.lisp.SRFI37$IsOptionOptionalArg</entry>
+<entry key="option-processor">net.morilib.lisp.SRFI37$SubrOptionProcessor</entry>
+<entry key="args-fold">net.morilib.lisp.SRFI37$ArgsFold</entry>
+<!-- SRFI-38 -->
+<entry key="write-with-shared-structure">WriteWithSharedStructure</entry>
+<entry key="write/ss">WriteWithSharedStructure</entry>
+<entry key="read-with-shared-structure">net.morilib.lisp.SubrRead</entry>
+<entry key="read/ss">net.morilib.lisp.SubrRead</entry>
+<!-- SRFI-39 -->
+<entry key="make-parameter">
+  net.morilib.lisp.LispParameter$MakeParameter
+</entry>
+<entry key="parameterize">net.morilib.lisp.SynParameterize</entry>
+<!-- SRFI-88 -->
+<entry key="keyword-&gt;string">KeywordToString</entry>
+<entry key="string-&gt;keyword">StringToKeyword</entry>
+<!-- SRFI-98 -->
+<entry key="get-environment-variable">GetEnvironmentVariable</entry>
+<entry key="get-environment-variables">GetEnvironmentVariables</entry>
+<!-- stream -->
+<!--
+<entry key="cons-stream">net.morilib.lisp.SynConsStream</entry>
+<entry key="stream-cons">net.morilib.lisp.SynConsStream</entry>
+<entry key="stream-car">net.morilib.lisp.ExSubrStreamCar</entry>
+<entry key="stream-cdr">net.morilib.lisp.ExSubrStreamCdr</entry>
+<entry key="stream-null?">IsStreamNull</entry>
+ -->
+<!-- io -->
+<!-- <entry key="read-line">ReadLine</entry> -->
+<!-- Java(obsolete) -->
+<entry key="java-import">net.morilib.lisp.SynJavaImport</entry>
+<entry key="java-new">net.morilib.lisp.SubrJavaNew</entry>
+<entry key="java-call">net.morilib.lisp.SynJavaCall</entry>
+<entry key="java-get">net.morilib.lisp.SynJavaGet</entry>
+<entry key="java-set!">net.morilib.lisp.SynJavaSetS</entry>
+<entry key="java-field-get">net.morilib.lisp.SynJavaFieldGet</entry>
+<entry key="java-field-set!">net.morilib.lisp.SynJavaFieldSetS</entry>
+<entry key="java-catch">net.morilib.lisp.SynJavaCatch</entry>
+<!-- Java(new) -->
+<entry key="apply-java">ApplyJava</entry>
+<entry key="apply-java-static">ApplyJavaStatic</entry>
+<entry key="make-java">MakeJava</entry>
+<entry key="clone">Clone</entry>
+<!-- traditional macro -->
+<entry key="define-macro">net.morilib.lisp.SynDefineMacro</entry>
+<entry key="define-macro-quote">net.morilib.lisp.SynDefineMacroQuote</entry>
+<entry key="gensym">Gensym</entry>
+<entry key="macroexpand">net.morilib.lisp.ExSubrMacroexpand</entry>
+<entry key="macroexpand-1">net.morilib.lisp.ExSubrMacroexpand1</entry>
+<entry key="expand-now">net.morilib.lisp.SynExpandNow</entry>
+<!-- define sharp syntax -->
+<entry key="define-sharp-symbol">DefineSharpSymbol</entry>
+<entry key="define-sharp-syntax">DefineSharpSyntax</entry>
+<entry key="define-sharp-quote">DefineSharpQuote</entry>
+<!-- XML -->
+<entry key="xml-&gt;sxml">net.morilib.lisp.xml.XmlToSxml</entry>
+<!-- Tokenizer -->
+<entry key="make-regexp-tokenize-pattern">
+  net.morilib.lisp.tokenize.LispRegexpTokenizePattern$MakeRegexpTokenizePattern
+</entry>
+<entry key="make-regexp-tokenizer-string">
+  net.morilib.lisp.tokenize.LispRegexpTokenizePattern$MakeRegexpTokenizerString
+</entry>
+<entry key="make-regexp-tokenizer-port">
+  net.morilib.lisp.tokenize.LispRegexpTokenizePattern$MakeRegexpTokenizerPort
+</entry>
+<entry key="tokenize">
+  net.morilib.lisp.tokenize.ILispTokenizer$Tokenize
+</entry>
+<!-- interactive -->
+<entry key="apropos">net.morilib.lisp.Environment$Apropos</entry>
+<!-- etc -->
+<entry key="keyword?">IsKeyword</entry>
+<entry key="error">LispError</entry>
+<entry key="get-default-message">GetDefaultMessage</entry>
+<entry key="use">net.morilib.lisp.SynUse</entry>
+<entry key="add-use-path">net.morilib.lisp.SynAddUsePath</entry>
+<entry key="identity-hash-table-clear!">
+  net.morilib.lisp.IdentityHash$ClearS
+</entry>
+<entry key="identity-hash-table-delete!">
+  net.morilib.lisp.IdentityHash$DeleteS
+</entry>
+<entry key="identity-hash-table-exists?">
+  net.morilib.lisp.IdentityHash$IsExists
+</entry>
+<entry key="identity-hash-table-get">
+  net.morilib.lisp.IdentityHash$Get
+</entry>
+<entry key="identity-hash-table-put!">
+  net.morilib.lisp.IdentityHash$PutS
+</entry>
+<entry key="make-identity-hash-table">
+  net.morilib.lisp.IdentityHash$Make
+</entry>
+<entry key="defined?">net.morilib.lisp.SynDefined</entry>
+<entry key="atom?">IsAtom</entry>
+<entry key="bind-environment!">net.morilib.lisp.EnvironmentObject$BindEnvironmentS</entry>
+<entry key="find-environment">net.morilib.lisp.EnvironmentObject$FindEnvironment</entry>
+<entry key="set-environment!">net.morilib.lisp.EnvironmentObject$SetEnvironmentS</entry>
+<entry key="make-environment">net.morilib.lisp.EnvironmentObject$MakeEnvironment</entry>
+<entry key="next-environment">net.morilib.lisp.EnvironmentObject$NextEnvironment</entry>
+<entry key="get-java-subr">
+  net.morilib.lisp.ExSubrGetJavaSubr
+</entry>
+<entry key="string+">StringAdd</entry>
+<entry key="raise-system-error">RaiseSystemError</entry>
+<entry key="cxxr">Cxxr</entry>
+<entry key="trim-both">TrimBoth</entry>
+<!-- <entry key="make-char-set">MakeCharSet</entry> -->
+<entry key="make-string-builder">LispStringBuilder$MakeStringBuilder</entry>
+<entry key="append-builder!">LispStringBuilder$AppendBuilderS</entry>
+<entry key="append-char-builder!">LispStringBuilder$AppendCharBuilderS</entry>
+<entry key="builder-&gt;string">LispStringBuilder$BuilderToString</entry>
+<entry key="get-system-property">GetSystemProperty</entry>
+<entry key="get-system-properties">GetSystemProperties</entry>
+<entry key="set-system-property!">SetSystemPropertyS</entry>
+<entry key="print">Print</entry>
+<entry key="tr-string">TrString</entry>
+<entry key="quasiquote-string">QuasiquoteString</entry>
+<entry key="promise?">net.morilib.lisp.Promise$IsPromise</entry>
+<entry key="dynamic-ref-variable">DynamicRefVariable</entry>
+<entry key="dynamic-defined?">IsDynamicDefined</entry>
+<entry key="dynamic-set-variable!!">DynamicSetVariableSS</entry>
+<entry key="load-plugin">net.morilib.lisp.LoadPlagin</entry>
+<entry key="has-vector-interface?">HasVectorInterface</entry>
+<entry key="symbol-form?">net.morilib.lisp.SynIsSymbolForm</entry>
+<entry key="multi-values-&gt;list">MultiValuesToList</entry>
+<entry key="probable-prime?">IsProbablePrime</entry>
+<entry key="prime??">IsProbablePrime</entry>
+<entry key="command-line">CommandLine</entry>
+<entry key="-&gt;string">ToString</entry>
+<entry key="double-&gt;long-bits">DoubleToLongBits</entry>
+<entry key="double-&gt;raw-long-bits">DoubleToRawLongBits</entry>
+<entry key="float-&gt;int-bits">FloatToIntBits</entry>
+<entry key="float-&gt;raw-int-bits">FloatToRawIntBits</entry>
+<entry key="current-time-millisecond">CurrentTimeMillisecond</entry>
+<entry key="current-time-nanosecond">CurrentTimeNanosecond</entry>
+<entry key="ask-list">AskList</entry>
+<entry key="nth-value">NthValue</entry>
+<entry key="first-value">FirstValue</entry>
+<entry key="second-value">SecondValue</entry>
+<entry key="char-&gt;escape">CharToEscape</entry>
+<!-- internal use -->
+<entry key="$log">IntLogChange</entry>
+<entry key="$log-level">IntLogLevel</entry>
+<entry key="$compile-re">net.morilib.lisp.RegexPattern$CompileRe</entry>
+<entry key="introspect-subr-java-class">IntrospectSubrJavaClass</entry>
+<entry key="make-macro">net.morilib.lisp.SubrMakeMacro</entry>
+</properties>

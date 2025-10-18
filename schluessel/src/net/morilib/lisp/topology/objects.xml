@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- cardinalities -->
+<entry key="cardinality-&gt;integer">CardinalityToInteger</entry>
+<entry key="cardinality-contable?">IsCardinalityCountable</entry>
+<entry key="cardinality-finite?">IsCardinalityFinite</entry>
+<!-- topologies -->
+<entry key="neighborhood-of?">IsNeighborhoodOf</entry>
+<entry key="topology-closed?">IsTopologyClosed</entry>
+<entry key="topology-contained?">IsTopologyContained</entry>
+<entry key="topology-empty?">IsTopologyEmpty</entry>
+<entry key="topology-independent?">IsTopologyIndependent</entry>
+<entry key="topology-open?">IsTopologyOpen</entry>
+<entry key="topology-universe?">IsTopologyUniverse</entry>
+<entry key="topology-cardinality">TopologyCardinality</entry>
+<entry key="topology-closure">TopologyClosure</entry>
+<entry key="topology-interior">TopologyInterior</entry>
+<entry key="topology-intersection">TopologyIntersection</entry>
+<entry key="topology-union">TopologyUnion</entry>
+<!-- real intervals and ranges -->
+<entry key="make-closed-interval">MakeClosedInterval</entry>
+<entry key="make-left-open-interval">MakeLeftOpenInterval</entry>
+<entry key="make-open-interval">MakeOpenInterval</entry>
+<entry key="make-right-open-interval">MakeRightOpenInterval</entry>
+<!-- ordered sets -->
+<entry key="set-infimum">SetInfimum</entry>
+<entry key="set-maximum">SetMaximum</entry>
+<entry key="set-minimum">SetMinimum</entry>
+<entry key="set-supremum">SetSupremum</entry>
+</properties>

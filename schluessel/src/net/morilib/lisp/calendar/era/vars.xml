@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- metallic ratio -->
+<entry key="*heisei*">
+  net.morilib.lisp.calendar.era.LispEra.HEISEI
+</entry>
+<entry key="*showa*">
+  net.morilib.lisp.calendar.era.LispEra.SHOWA
+</entry>
+<entry key="*taisho*">
+  net.morilib.lisp.calendar.era.LispEra.TAISHO
+</entry>
+<entry key="*meiji*">
+  net.morilib.lisp.calendar.era.LispEra.MEIJI
+</entry>
+</properties>

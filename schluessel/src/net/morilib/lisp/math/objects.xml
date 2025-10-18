@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- trigonometric functions using degrees -->
+<entry key="sin-deg">SinDeg</entry>
+<entry key="cos-deg">CosDeg</entry>
+<entry key="tan-deg">TanDeg</entry>
+<entry key="asin-deg">AsinDeg</entry>
+<entry key="acos-deg">AcosDeg</entry>
+<entry key="atan-deg">AtanDeg</entry>
+<!-- permutations -->
+<entry key="permutation">Permutation</entry>
+<entry key="permutation-invert">PermutationInvert</entry>
+<entry key="permutation-ref">PermutationRef</entry>
+<!-- arithmetics -->
+<entry key="rational-&gt;decimal-string">RationalToDecimalString</entry>
+<entry key="factorize-fixnum">FactorizeFixnum</entry>
+<!-- etc -->
+<entry key="!">Factorial</entry>
+<entry key="antisymmetric-epsilon">AntisymmetricEpsilon</entry>
+<entry key="approximate-!">ApproximateFactorial</entry>
+<entry key="binomial-coefficient">BinomialCoefficient</entry>
+<entry key="expand-continued-fraction">ExpandContinuedFraction</entry>
+<entry key="iverson-function">IversonFunction</entry>
+<entry key="kronecker-delta">KroneckerDelta</entry>
+<entry key="kronecker-delta-eq">KroneckerDeltaEq</entry>
+<entry key="kronecker-delta-equal">KroneckerDeltaEqual</entry>
+<entry key="kronecker-delta-eqv">KroneckerDeltaEqv</entry>
+<entry key="kronecker-delta-proc">KroneckerDeltaProc</entry>
+<entry key="make-real/error">MakeRealWithError</entry>
+<entry key="sinc">Sinc</entry>
+<entry key="square">Square</entry>
+</properties>

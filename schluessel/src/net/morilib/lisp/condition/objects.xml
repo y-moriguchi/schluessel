@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- SRFI-35 -->
+<entry key="condition-ref">ConditionRef</entry>
+<entry key="extract-condition">ExtractCondition</entry>
+<entry key="condition-has-type?">IsConditionHasType</entry>
+<entry key="condition-type?">IsConditionType</entry>
+<entry key="make-compound-condition">MakeCompoundCondition</entry>
+<entry key="make-condition">MakeCondition</entry>
+<entry key="make-condition-type">MakeConditionType</entry>
+<!-- R6RS compatible -->
+<entry key="condition">MakeCompoundCondition</entry>
+<entry key="simple-conditions">SimpleConditions</entry>
+<entry key="condition?">IsCondition</entry>
+<entry key="condition-predicate">ConditionPredicate</entry>
+<entry key="condition-accessor">ConditionAccessor</entry>
+</properties>

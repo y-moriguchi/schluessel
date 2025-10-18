@@ -1,0 +1,58 @@
+/*
+ * Copyright 2009-2010 Yuichiro Moriguchi
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package net.morilib.lisp.math.stat.dist;
+
+import net.morilib.math.stat.dist.ContinuousDistribution;
+import net.morilib.math.stat.dist.continuous.NormalDistribution;
+
+/**
+ *
+ *
+ * @author MORIGUCHI, Yuichiro 2012/02/17
+ */
+public class LispNormalDistribution
+extends AbstractLispDistribution {
+
+	//
+	NormalDistribution dist;
+
+	/**
+	 * 
+	 * @param mean
+	 * @param variance
+	 */
+	public LispNormalDistribution(double mean, double variance) {
+		dist = new NormalDistribution(mean, variance);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.lisp.math.stat.dist.LispContinuousDistribution#getDistribution()
+	 */
+	@Override
+	public ContinuousDistribution getDistribution() {
+		return dist;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.lisp.Datum2#toDisplayString(java.lang.StringBuilder)
+	 */
+	@Override
+	public void toDisplayString(StringBuilder buf) {
+		buf.append("#<N(").append(dist.expectedValue()).append(", ");
+		buf.append(dist.variance()).append(")>");
+	}
+
+}

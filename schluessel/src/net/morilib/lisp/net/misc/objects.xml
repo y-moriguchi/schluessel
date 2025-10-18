@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="host-reachable?">IsHostReachable</entry>
+<entry key="host-reachable-by-tcp?">IsHostReachableByTcp</entry>
+<entry key="host-reachable-by-udp?">IsHostReachableByUdp</entry>
+<entry key="open-chargen-input-port">OpenChargenInputPort</entry>
+<entry key="open-daytime-input-port">OpenDaytimeInputPort</entry>
+<entry key="open-inet-service-input-port">OpenInetServiceInputPort</entry>
+<entry key="open-quote-of-the-day-input-port">OpenQuoteOfTheDayInputPort</entry>
+<entry key="syslog-logger">SyslogLogger</entry>
+<entry key="tftp-get">TftpGet</entry>
+<entry key="tftp-put">TftpPut</entry>
+<entry key="host-reachable-by-tcp?">IsHostReachableByTcp</entry>
+<entry key="host-reachable-by-udp?">IsHostReachableByUdp</entry>
+</properties>

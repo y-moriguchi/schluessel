@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Syntax Props</comment>
+<!-- syntaxes -->
+<entry key="quote">SynQuote</entry>
+<entry key="define">SynDefine</entry>
+<entry key="if">SynIf</entry>
+<entry key="lambda">SynLambda</entry>
+<entry key="cond">SynCond</entry>
+<entry key="set!">SynSetS</entry>
+<entry key="let">SynLet</entry>
+<entry key="let*">SynLetrec</entry>
+<entry key="letrec">SynLetrec</entry>
+<entry key="letrec*">SynLetrec</entry>
+<entry key="and">SynAnd</entry>
+<entry key="or">SynOr</entry>
+<entry key="begin">SynBegin</entry>
+<entry key="quasiquote">SynQuasiquote</entry>
+<entry key="define-syntax">SynDefineSyntax</entry>
+<entry key="let-syntax">SynLetSyntax</entry>
+<entry key="letrec-syntax">SynLetrecSyntax</entry>
+<entry key="delay">SynDelay</entry>
+<entry key="do">SynDoLoop</entry>
+<entry key="case">SynCase</entry>
+</properties>

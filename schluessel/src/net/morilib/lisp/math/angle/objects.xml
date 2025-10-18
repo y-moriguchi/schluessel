@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="angle-cos">AngleCos</entry>
+<entry key="angle-degree">AngleDegree</entry>
+<entry key="angle-grade">AngleGrade</entry>
+<entry key="angle-radian">AngleRadian</entry>
+<entry key="angle-radian-pi">AngleRadianPi</entry>
+<entry key="angle-sin">AngleSin</entry>
+<entry key="angle-tan">AngleTan</entry>
+<entry key="angle-&gt;number-degree">AngleToNumberDegree</entry>
+<entry key="angle-&gt;number-grade">AngleToNumberGrade</entry>
+<entry key="angle-&gt;number-radian">AngleToNumberRadian</entry>
+<entry key="acute-angle?">IsAcuteAngle</entry>
+<entry key="angle?">IsAngle</entry>
+<entry key="cos-exact?">IsCosExact</entry>
+<entry key="obtuse-angle?">IsObtuseAngle</entry>
+<entry key="reflex-angle?">IsReflexAngle</entry>
+<entry key="right-angle?">IsRightAngle</entry>
+<entry key="sin-exact?">IsSinExact</entry>
+<entry key="straight-angle?">IsStraightAngle</entry>
+<entry key="tan-exact?">IsTanExact</entry>
+</properties>

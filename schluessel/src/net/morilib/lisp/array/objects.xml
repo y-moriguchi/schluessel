@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- SRFI-25 procedures -->
+<entry key="array?">IsArray</entry>
+<entry key="make-array">MakeArray</entry>
+<entry key="array">SubrArray</entry>
+<entry key="array-rank">ArrayRank</entry>
+<entry key="array-start">ArrayStart</entry>
+<entry key="array-end">ArrayEnd</entry>
+<entry key="array-ref">ArrayRef</entry>
+<entry key="array-set!">ArraySetS</entry>
+<entry key="share-array">ShareArray</entry>
+<entry key="shape">LispArrayShape$Shape</entry>
+<!-- SRFI-47 procedures -->
+<entry key="ac32">LispArrayC32$Ac32</entry>
+<entry key="ac64">LispArrayC64$Ac64</entry>
+<entry key="ar32">LispArrayR32$Ar32</entry>
+<entry key="ar64">LispArrayR64$Ar64</entry>
+<entry key="as8">LispArrayS8$As8</entry>
+<entry key="as16">LispArrayS16$As16</entry>
+<entry key="as32">LispArrayS32$As32</entry>
+<entry key="as64">LispArrayS64$As64</entry>
+<entry key="au8">LispArrayU8$Au8</entry>
+<entry key="au16">LispArrayU16$Au16</entry>
+<entry key="au32">LispArrayU32$Au32</entry>
+<entry key="au64">LispArrayU64$Au64</entry>
+<entry key="at1">LispArrayT1$At1</entry>
+<entry key="make-shared-array">MakeSharedArray</entry>
+<entry key="array-dimensions">ArrayDimensions</entry>
+<entry key="array-in-bounds?">IsArrayInBounds</entry>
+<!-- SRFI-58 procedures -->
+<entry key="parse-srfi-58">ParseSrfi58</entry>
+<!-- SRFI-63 procedures -->
+<entry key="list-&gt;array">ListToArray</entry>
+<entry key="array-&gt;list">ArrayToList</entry>
+<entry key="vector-&gt;array">VectorToArray</entry>
+<entry key="array-&gt;vector">ArrayToVector</entry>
+<entry key="a:floc128b">LispArrayC64$Ac64</entry>
+<entry key="a:floc64b">LispArrayC64$Ac64</entry>
+<entry key="a:floc32b">LispArrayC32$Ac32</entry>
+<entry key="a:floc16b">LispArrayC32$Ac32</entry>
+<entry key="a:flor128b">LispArrayR64$Ar64</entry>
+<entry key="a:flor64b">LispArrayR64$Ar64</entry>
+<entry key="a:flor32b">LispArrayR32$Ar32</entry>
+<entry key="a:flor16b">LispArrayR32$Ar32</entry>
+<entry key="a:floq128d">LispDefaultArray$DefProto</entry>
+<entry key="a:floq64d">LispDefaultArray$DefProto</entry>
+<entry key="a:floq32d">LispDefaultArray$DefProto</entry>
+<entry key="a:fixz64b">LispArrayS64$As64</entry>
+<entry key="a:fixz32b">LispArrayS32$As32</entry>
+<entry key="a:fixz16b">LispArrayS16$As16</entry>
+<entry key="a:fixz8b">LispArrayS8$As8</entry>
+<entry key="a:fixn64b">LispArrayU64$Au64</entry>
+<entry key="a:fixn32b">LispArrayU32$Au32</entry>
+<entry key="a:fixn16b">LispArrayU16$Au16</entry>
+<entry key="a:fixn8b">LispArrayU8$Au8</entry>
+<entry key="a:bool">LispArrayT1$At1</entry>
+</properties>

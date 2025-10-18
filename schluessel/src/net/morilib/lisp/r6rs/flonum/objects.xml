@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="fixnum-&gt;flonum">FixnumToFlonum</entry>
+<entry key="flabs">Flabs</entry>
+<entry key="flacos">Flacos</entry>
+<entry key="fl+">FlAdd</entry>
+<entry key="flasin">Flasin</entry>
+<entry key="flatan">Flatan</entry>
+<entry key="flceiling">Flceiling</entry>
+<entry key="flcos">Flcos</entry>
+<entry key="fldenominator">Fldenominator</entry>
+<entry key="fldiv">Fldiv</entry>
+<entry key="fldiv0">Fldiv0</entry>
+<entry key="fldiv0-and-mod0">Fldiv0AndMod0</entry>
+<entry key="fldiv-and-mod">FldivAndMod</entry>
+<entry key="fl/">FlDivide</entry>
+<entry key="flexp">Flexp</entry>
+<entry key="flexpt">Flexpt</entry>
+<entry key="flfloor">Flfloor</entry>
+<entry key="fllog">Fllog</entry>
+<entry key="flmax">Flmax</entry>
+<entry key="flmin">Flmin</entry>
+<entry key="flmod">Flmod</entry>
+<entry key="flmod0">Flmod0</entry>
+<entry key="fl*">FlMul</entry>
+<entry key="flnumerator">Flnumerator</entry>
+<entry key="flround">Flround</entry>
+<entry key="flsin">Flsin</entry>
+<entry key="flsqrt">Flsqrt</entry>
+<entry key="fl-">FlSub</entry>
+<entry key="fltan">Fltan</entry>
+<entry key="fltruncate">Fltruncate</entry>
+<entry key="fl=?">IsFlEq</entry>
+<entry key="fleven?">IsFleven</entry>
+<entry key="flfinite?">IsFlfinite</entry>
+<entry key="fl&gt;?">IsFlGt</entry>
+<entry key="fl&gt;=?">IsFlGtEq</entry>
+<entry key="flinfinite?">IsFlinfinite</entry>
+<entry key="flinteger?">IsFlinteger</entry>
+<entry key="fl&lt;?">IsFlLt</entry>
+<entry key="fl&lt;=?">IsFlLtEq</entry>
+<entry key="flnan?">IsFlnan</entry>
+<entry key="flnegative?">IsFlnegative</entry>
+<entry key="flodd?">IsFlodd</entry>
+<entry key="flonum?">IsFlonum</entry>
+<entry key="flpositive?">IsFlpositive</entry>
+<entry key="flzero?">IsFlzero</entry>
+<entry key="real-&gt;flonum">RealToFlonum</entry>
+</properties>

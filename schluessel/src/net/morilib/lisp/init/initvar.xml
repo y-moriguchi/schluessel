@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="net.morilib.lisp.subr">vars.xml</entry>
+<entry key="net.morilib.lisp.exlib">vars.xml</entry>
+<entry key="net.morilib.lisp.painter">vars.xml</entry>
+<entry key="net.morilib.lisp.condition">vars.xml</entry>
+<entry key="net.morilib.lisp.charset">vars.xml</entry>
+<entry key="net.morilib.lisp.topology">vars.xml</entry>
+<entry key="net.morilib.lisp.math.random">vars.xml</entry>
+<entry key="net.morilib.lisp.math.constants">vars.xml</entry>
+<entry key="net.morilib.lisp.calendar.era">vars.xml</entry>
+<entry key="net.morilib.lisp.arith">vars.xml</entry>
+</properties>

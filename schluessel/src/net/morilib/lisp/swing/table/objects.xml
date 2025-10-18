@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="jtable-column-add!">JtableColumnAddS</entry>
+<entry key="jtable-preferred-width">JtablePreferredWidth</entry>
+<entry key="jtable-preferred-width-set!">JtablePreferredWidthSetS</entry>
+<entry key="make-jtable">MakeJtable</entry>
+<!-- table framework -->
+<entry key="jtable-cell">JtableCell</entry>
+<entry key="jtable-cell-set!">JtableCellSetS</entry>
+<entry key="jtable-column-count">JtableColumnCount</entry>
+<entry key="jtable-row-add!">JtableRowAddS</entry>
+<entry key="jtable-row-count">JtableRowCount</entry>
+<entry key="jtable-row-insert!">JtableRowInsertS</entry>
+<entry key="jtable-row-remove!">JtableRowRemoveS</entry>
+<entry key="jtable-&gt;list">JtableToList</entry>
+</properties>

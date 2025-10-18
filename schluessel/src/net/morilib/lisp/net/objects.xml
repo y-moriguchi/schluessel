@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="accept-socket">AcceptSocket</entry>
+<entry key="get-inet-address-by-hostname">GetInetAddressByHostname</entry>
+<entry key="inet-address-&gt;hostname">InetAddressToHostname</entry>
+<entry key="inet-address-&gt;string">InetAddressToString</entry>
+<entry key="internationalized-domain-&gt;string">InternationalizedDomainToString</entry>
+<entry key="list-&gt;inet-address">ListToInetAddress</entry>
+<entry key="make-datagram-socket">MakeDatagramSocket</entry>
+<entry key="make-server-socket">MakeServerSocket</entry>
+<entry key="make-socket">MakeSocket</entry>
+<entry key="open-tcp-input/output-port">OpenTcpInputWithOutputPort</entry>
+<entry key="receive-datagram-packet-s8">ReceiveDatagramPacketS8</entry>
+<entry key="receive-datagram-packet-u8">ReceiveDatagramPacketU8</entry>
+<entry key="send-datagram-packet">SendDatagramPacket</entry>
+<entry key="socket-close">SocketClose</entry>
+<entry key="socket-input-port">SocketInputPort</entry>
+<entry key="socket-output-port">SocketOutputPort</entry>
+<entry key="string-&gt;internationalized-domain">StringToInternationalizedDomain</entry>
+<entry key="inet-address">SubrInetAddress</entry>
+<!-- network interfaces -->
+<entry key="network-interface?">IsNetworkInterface</entry>
+<entry key="network-interface-loopback?">IsNetworkInterfaceLoopback</entry>
+<entry key="network-interface-point-to-point?">IsNetworkInterfacePointToPoint</entry>
+<entry key="network-interface-supports-multicast?">IsNetworkInterfaceSupportsMulticast</entry>
+<entry key="network-interface-up?">IsNetworkInterfaceUp</entry>
+<entry key="network-interface-virtual?">IsNetworkInterfaceVirtual</entry>
+<entry key="network-interface-addresses">NetworkInterfaceAddresses</entry>
+<entry key="network-interface-by-address">NetworkInterfaceByAddress</entry>
+<entry key="network-interface-by-name">NetworkInterfaceByName</entry>
+<entry key="network-interface-display-name">NetworkInterfaceDisplayName</entry>
+<entry key="network-interface-hardware-address">NetworkInterfaceHardwareAddress</entry>
+<entry key="network-interface-mtu">NetworkInterfaceMtu</entry>
+<entry key="network-interface-name">NetworkInterfaceName</entry>
+<entry key="network-interfaces">NetworkInterfaces</entry>
+<!-- hardware(MAC) address -->
+<entry key="hardware-address-&gt;string">HardwareAddressToString</entry>
+</properties>

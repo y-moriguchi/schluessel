@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="generate-uuid">GenerateUuid</entry>
+<entry key="make-uuid">MakeUuid</entry>
+<entry key="string-&gt;uuid">StringToUuid</entry>
+<entry key="uuid-&gt;string">UuidToString</entry>
+</properties>

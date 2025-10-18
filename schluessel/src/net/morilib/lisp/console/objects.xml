@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="console-read-line">ConsoleReadLine</entry>
+<entry key="console-read-password">ConsoleReadPassword</entry>
+<entry key="has-console?">IsHasConsole</entry>
+</properties>

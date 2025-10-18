@@ -1,0 +1,18 @@
+;;;UTF-8
+
+((db2 . "com.ibm.db2.jcc.DB2Driver")
+ (firebird . "org.firebirdsql.jdbc.FBDriver")
+ (mssql . "com.microsoft.sqlserver.jdbc.SQLServerDriver")
+ (oracle . "oracle.jdbc.driver.OracleDriver")
+ (mysql . "com.mysql.jdbc.Driver")
+ (postgresql . "org.postgresql.Driver")
+ (derby . #f)
+ (sqlite . "org.sqlite.JDBC"))
+((db2 . #f)
+ (firebird . #f)
+ (mssql . #f)
+ (oracle . "net.morilib.lisp.sql.LispOracleUtils")
+ (mysql . #f)
+ (postgresql . #f)
+ (derby . #f)
+ (sqlite . #f))

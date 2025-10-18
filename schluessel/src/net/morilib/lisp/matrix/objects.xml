@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- datum matrix -->
+<entry key="cons-tensor-product">ConsTensorProduct</entry>
+<entry key="datum-matrix?">IsDatumMatrix</entry>
+<entry key="list-&gt;datum-matrix">ListToDatumMatrix</entry>
+<entry key="make-datum-matrix">MakeDatumMatrix</entry>
+<entry key="matrix-column-size">MatrixColumnSize</entry>
+<entry key="matrix-column-vector">MatrixColumnVector</entry>
+<entry key="matrix-row-size">MatrixRowSize</entry>
+<entry key="matrix-row-vector">MatrixRowVector</entry>
+<entry key="matrix-transpose">MatrixTranspose</entry>
+</properties>

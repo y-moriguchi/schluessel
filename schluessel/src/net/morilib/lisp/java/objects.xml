@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- runtime -->
+<entry key="jvm-available-processors">JvmAvailableProcessors</entry>
+<entry key="garbage-collector">GarbageCollector</entry>
+<entry key="jvm-free-memory">JvmFreeMemory</entry>
+<entry key="jvm-max-memory">JvmMaxMemory</entry>
+<entry key="jvm-total-memory">JvmTotalMemory</entry>
+<!-- reference -->
+<entry key="reference?">IsReference</entry>
+<entry key="reference-cleared?">IsReferenceCleared</entry>
+<entry key="reference-enqueued?">IsReferenceEnqueued</entry>
+<entry key="reference-queue?">IsReferenceQueue</entry>
+<entry key="make-phantom-reference">MakePhantomReference</entry>
+<entry key="make-reference-queue">MakeReferenceQueue</entry>
+<entry key="make-soft-reference">MakeSoftReference</entry>
+<entry key="make-weak-reference">MakeWeakReference</entry>
+<entry key="reference-clear">ReferenceClear</entry>
+<entry key="reference-enqueue">ReferenceEnqueue</entry>
+<entry key="reference-get">ReferenceGet</entry>
+<entry key="reference-queue-poll">ReferenceQueuePoll</entry>
+<entry key="reference-queue-remove">ReferenceQueueRemove</entry>
+</properties>

@@ -1,0 +1,54 @@
+/*
+ * Copyright 2009 Yuichiro Moriguchi
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package net.morilib.lisp.r6rs;
+
+import net.morilib.lisp.Environment;
+import net.morilib.lisp.Symbol;
+
+public class SymbolEnv {
+	
+	private Symbol symbol;
+	private Environment environment;
+	
+	
+	/*package*/ SymbolEnv(Symbol s, Environment e) {
+		if(s == null || e == null) {
+			throw new NullPointerException();
+		}
+		symbol = s;
+		environment = e;
+	}
+
+	/**
+	 * @return the symbol
+	 */
+	public Symbol getSymbol() {
+		return symbol;
+	}
+
+	/**
+	 * @return the environment
+	 */
+	public Environment getEnvironment() {
+		return environment;
+	}
+	
+	
+	/*package*/ SymbolEnv prototype(Symbol s) {
+		return new SymbolEnv(s, environment);
+	}
+	
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="enum-set2?">LispEnumSetClass$IsEnumSet</entry>
+<entry key="make-enum-map2-class">MakeEnumMapClass</entry>
+<entry key="make-enum-set2-class">MakeEnumSetClass</entry>
+</properties>

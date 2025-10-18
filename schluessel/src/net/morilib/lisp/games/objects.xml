@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="tic-tac-toe-board?">IsTicTacToeBoard</entry>
+<entry key="make-tic-tac-toe-board">MakeTicTacToeBoard</entry>
+<entry key="play-tic-tac-toe">PlayTicTacToe</entry>
+<entry key="put-tic-tac-toe-board">PutTicTacToeBoard</entry>
+<entry key="think-tic-tac-toe">ThinkTicTacToe</entry>
+<entry key="tic-tac-toe-win">TicTacToeWin</entry>
+<entry key="compute-japanese-mahjong-score-rong">ComputeJapaneseMahjongScoreRong</entry>
+<entry key="compute-japanese-mahjong-score-zimo">ComputeJapaneseMahjongScoreZimo</entry>
+</properties>

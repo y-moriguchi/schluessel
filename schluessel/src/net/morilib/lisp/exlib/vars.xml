@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- stream -->
+<!--
+<entry key="stream-null">net.morilib.lisp.Promise.STREAM_NULL</entry>
+-->
+<entry key="stream-null">
+  net.morilib.lisp.lib.srfi041.LispStream.STREAM_NULL
+</entry>
+<!-- object system -->
+<!--
+<entry key="&lt;top&gt;">net.morilib.lisp.sos.SOS.TOP</entry>
+<entry key="&lt;string&gt;">net.morilib.lisp.sos.SOS.STRING</entry>
+<entry key="&lt;char&gt;">net.morilib.lisp.sos.SOS.CHAR</entry>
+-->
+<!-- character set -->
+<!-- 
+<entry key="char-set:graphic">net.morilib.lisp.exlib.LispCharSet.GRAPHIC</entry>
+<entry key="char-set:whitespace">net.morilib.lisp.exlib.LispCharSet.WHITESPACE</entry>
+-->
+<!-- Java -->
+<entry key="java-null">net.morilib.lisp.JavaNull.JAVA_NULL</entry>
+</properties>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="equal-hash">EqualHash</entry>
+<entry key="hashtable-clear!">HashtableClearS</entry>
+<entry key="hashtable-copy">HashtableCopy</entry>
+<entry key="hashtable-delete!">HashtableDeleteS</entry>
+<entry key="hashtable-entries">HashtableEntries</entry>
+<entry key="hashtable-equivalence-function">HashtableEquivalenceFunction</entry>
+<entry key="hashtable-hash-function">HashtableHashFunction</entry>
+<entry key="hashtable-keys">HashtableKeys</entry>
+<entry key="hashtable-ref">HashtableRef</entry>
+<entry key="hashtable-set!">HashtableSetS</entry>
+<entry key="hashtable-size">HashtableSize</entry>
+<entry key="hashtable-update!">HashtableUpdateS</entry>
+<entry key="hashtable?">IsHashtable</entry>
+<entry key="hashtable-contains?">IsHashtableContains</entry>
+<entry key="hashtable-mutable?">IsHashtableMutable</entry>
+<entry key="make-eq-hashtable">MakeEqHashtable</entry>
+<entry key="make-eqv-hashtable">MakeEqvHashtable</entry>
+<entry key="make-hashtable">MakeHashtable</entry>
+<entry key="string-ci-hash">StringCiHash</entry>
+<entry key="string-hash">StringHash</entry>
+<entry key="symbol-hash">SymbolHash</entry>
+</properties>

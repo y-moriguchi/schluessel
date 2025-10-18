@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="sorted?">IsSorted</entry>
+<entry key="merge">Merge</entry>
+<entry key="merge!">MergeS</entry>
+<entry key="sort">Sort</entry>
+<entry key="sort!">SortS</entry>
+</properties>

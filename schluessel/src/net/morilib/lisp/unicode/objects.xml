@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- R6RS character -->
+<entry key="char-foldcase">CharFoldcase</entry>
+<entry key="char-general-category">CharGeneralCategory</entry>
+<entry key="char-titlecase">CharTitlecase</entry>
+<entry key="char-title-case?">IsCharTitleCase</entry>
+<!-- R6RS string -->
+<entry key="string-downcase">StringDowncase</entry>
+<entry key="string-foldcase">StringFoldcase</entry>
+<entry key="string-normalize-nfc">StringNormalizeNfc</entry>
+<entry key="string-normalize-nfd">StringNormalizeNfd</entry>
+<entry key="string-normalize-nfkc">StringNormalizeNfkc</entry>
+<entry key="string-normalize-nfkd">StringNormalizeNfkd</entry>
+<entry key="string-titlecase">StringTitlecase</entry>
+<entry key="string-upcase">StringUpcase</entry>
+<!-- extended -->
+<entry key="digit-&gt;integer">DigitToInteger</entry>
+<entry key="integer-&gt;digit">IntegerToDigit</entry>
+</properties>

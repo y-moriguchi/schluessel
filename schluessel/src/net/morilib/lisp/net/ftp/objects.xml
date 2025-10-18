@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="close-ftp-connection">CloseFtpConnection</entry>
+<entry key="ftp-cd">FtpCd</entry>
+<entry key="ftp-delete-file">FtpDeleteFile</entry>
+<entry key="ftp-file-size">FtpFileSize</entry>
+<entry key="ftp-get">FtpGet</entry>
+<entry key="ftp-get-transfer-mode">FtpGetTransferMode</entry>
+<entry key="ftp-list">FtpList</entry>
+<entry key="ftp-mkdir">FtpMkdir</entry>
+<entry key="ftp-name-list">FtpNameList</entry>
+<entry key="ftp-put">FtpPut</entry>
+<entry key="ftp-pwd">FtpPwd</entry>
+<entry key="ftp-quit">FtpQuit</entry>
+<entry key="ftp-rename">FtpRename</entry>
+<entry key="ftp-rmdir">FtpRmdir</entry>
+<entry key="ftp-server-info">FtpServerInfo</entry>
+<entry key="ftp-set-transfer-mode!">FtpSetTransferModeS</entry>
+<entry key="ftp-timestamp">FtpTimestamp</entry>
+<entry key="ftp-connected?">IsFtpConnected</entry>
+<entry key="ftp-connection?">IsFtpConnection</entry>
+<entry key="make-ftp-active-connection">MakeFtpActiveConnection</entry>
+<entry key="make-ftp-passive-connection">MakeFtpPassiveConnection</entry>
+<entry key="ftp-transfer-mode">SynsFtpTransferMode</entry>
+</properties>

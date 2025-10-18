@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- metallic ratio -->
+<entry key="golden-ratio">
+  net.morilib.lisp.arith.LispRatio.GOLDEN_RATIO
+</entry>
+<entry key="silver-ratio">
+  net.morilib.lisp.arith.LispRatio.SILVER_RATIO
+</entry>
+</properties>

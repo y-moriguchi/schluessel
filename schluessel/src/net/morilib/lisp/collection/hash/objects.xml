@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- SRFI-44 procedures -->
+<entry key="make-hash-map">LispHash$MakeHashMap</entry>
+<entry key="hash-map">LispHash$SubrHashMap</entry>
+<!-- SRFI-69 procedures -->
+<entry key="make-hash-table">LispHash$MakeHashTable</entry>
+<entry key="hash-table?">LispHash$IsHashTable</entry>
+<entry key="alist-&gt;hash-table">LispHash$AlistToHashTable</entry>
+<entry key="hash-table-equivalence-function">
+  LispHash$HashTableEquivalenceFunction
+</entry>
+<entry key="hash-table-hash-function">
+  LispHash$HashTableHashFunction
+</entry>
+<entry key="hash-table-ref">LispHash$HashTableRef</entry>
+<entry key="hash-table-ref/default">
+  LispHash$HashTableRefWithDefault
+</entry>
+<entry key="hash-table-set!">LispHash$HashTableSetS</entry>
+<entry key="hash-table-delete!">LispHash$HashTableDeleteS</entry>
+<entry key="hash-table-exists?">LispHash$IsHashTableExists</entry>
+<entry key="hash-table-update!">LispHash$HashTableUpdateS</entry>
+<entry key="hash-table-update!/default">
+  LispHash$HashTableUpdateSWithDefault
+</entry>
+<entry key="hash-table-size">LispHash$HashTableSize</entry>
+<entry key="hash-table-keys">LispHash$HashTableKeys</entry>
+<entry key="hash-table-values">LispHash$HashTableValues</entry>
+<entry key="hash-table-walk">LispHash$HashTableWalk</entry>
+<entry key="hash-table-fold">LispHash$HashTableFold</entry>
+<entry key="hash-table-&gt;alist">LispHash$HashTableToAlist</entry>
+<entry key="hash-table-copy">LispHash$HashTableCopy</entry>
+<entry key="hash-table-merge!">LispHash$HashTableMergeS</entry>
+<entry key="hash">Hash</entry>
+<entry key="string-hash">StringHash</entry>
+<entry key="string-ci-hash">StringCiHash</entry>
+<entry key="hash-by-identity">HashByIdentity</entry>
+<entry key="char-hash">CharHash</entry>
+<entry key="char-ci-hash">CharCiHash</entry>
+</properties>

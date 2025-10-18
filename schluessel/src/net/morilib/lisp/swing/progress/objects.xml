@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="progress-bar-indeterminate?">IsProgressBarIndeterminate</entry>
+<entry key="progress-bar-string-painted?">IsProgressBarStringPainted</entry>
+<entry key="progress-monitor-canceled?">IsProgressMonitorCanceled</entry>
+<entry key="make-progress-bar">MakeProgressBar</entry>
+<entry key="make-progress-monitor">MakeProgressMonitor</entry>
+<entry key="progress-bar-indeterminate-set!">ProgressBarIndeterminateSetS</entry>
+<entry key="progress-bar-maximum">ProgressBarMaximum</entry>
+<entry key="progress-bar-maximum-set!">ProgressBarMaximumSetS</entry>
+<entry key="progress-bar-minimum">ProgressBarMinimum</entry>
+<entry key="progress-bar-minimum-set!">ProgressBarMinimumSetS</entry>
+<entry key="progress-bar-orientation">ProgressBarOrientation</entry>
+<entry key="progress-bar-percent-complete">ProgressBarPercentComplete</entry>
+<entry key="progress-bar-string">ProgressBarString</entry>
+<entry key="progress-bar-string-painted-set!">ProgressBarStringPaintedSetS</entry>
+<entry key="progress-bar-string-set!">ProgressBarStringSetS</entry>
+<entry key="progress-bar-value">ProgressBarValue</entry>
+<entry key="progress-bar-value-set!">ProgressBarValueSetS</entry>
+<entry key="progress-monitor-note">ProgressMonitorNote</entry>
+<entry key="progress-monitor-note-set!">ProgressMonitorNoteSetS</entry>
+<entry key="progress-monitor-progress-set!">ProgressMonitorProgressSetS</entry>
+</properties>

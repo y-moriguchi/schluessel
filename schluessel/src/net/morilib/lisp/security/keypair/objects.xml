@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="generate-key-pair">GenerateKeyPair</entry>
+<entry key="hexify-signature">HexifySignature</entry>
+<entry key="file-signed?">IsFileSigned</entry>
+<entry key="key-pair-private-key">KeyPairPrivateKey</entry>
+<entry key="key-pair-public-key">KeyPairPublicKey</entry>
+<entry key="sign-datum">SignDatum</entry>
+<entry key="singed-datum-signature">SignedDatumSignature</entry>
+<entry key="sign-file">SignFile</entry>
+<entry key="unwrap-signed-datum">UnwrapSignedDatum</entry>
+<entry key="verify-signed-datum">VerifySignedDatum</entry>
+</properties>

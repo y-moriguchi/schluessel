@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="nfa?">IsNfa</entry>
+<entry key="make-combined-nfa">MakeCombinedNfa</entry>
+<entry key="make-nfa">MakeNfa</entry>
+<entry key="nfa-states-&gt;list">NfaStatesToList</entry>
+<entry key="nfa-&gt;dfa">NfaToDfa</entry>
+</properties>

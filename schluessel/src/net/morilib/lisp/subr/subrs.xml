@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- subroutines -->
+<entry key="null?">IsNull</entry>
+<entry key="pair?">IsPair</entry>
+<entry key="eq?">IsEq</entry>
+<entry key="eqv?">IsEqv</entry>
+<entry key="equal?">IsEqual</entry>
+<entry key="not">Not</entry>
+<entry key="boolean?">IsBoolean</entry>
+<entry key="cons">MakeCons</entry>
+<entry key="car">Car</entry>
+<entry key="cdr">Cdr</entry>
+<entry key="set-car!">net.morilib.lisp.SubrSetCarS</entry>
+<entry key="set-cdr!">net.morilib.lisp.SubrSetCdrS</entry>
+<entry key="apply">net.morilib.lisp.SubrApply2</entry>
+<entry key="symbol?">IsSymbol</entry>
+<entry key="procedure?">IsProcedure</entry>
+<entry key="symbol-&gt;string">SymbolToString</entry>
+<entry key="string-&gt;symbol">StringToSymbol</entry>
+<!-- list functions -->
+<entry key="list">ListSubr</entry>
+<entry key="list?">IsList</entry>
+<entry key="length">Length</entry>
+<entry key="list-ref">ListRef</entry>
+<entry key="list-tail">ListTail</entry>
+<entry key="append">net.morilib.lisp.SubrAppend</entry>
+<entry key="reverse">Reverse</entry>
+<entry key="memq">Memq</entry>
+<entry key="memv">Memv</entry>
+<!-- continuation -->
+<entry key="call-with-current-continuation">
+  net.morilib.lisp.SubrCallWithCC
+</entry>
+<entry key="call/cc">net.morilib.lisp.SubrCallWithCC</entry>
+<!-- 
+<entry key="dynamic-wind">net.morilib.lisp.SubrDynamicWind</entry>
+ -->
+<!-- multi-values -->
+<entry key="values">Values</entry>
+<entry key="call-with-values">net.morilib.lisp.SubrCallWithValues</entry>
+<!-- map functions -->
+<entry key="map">net.morilib.lisp.SubrMap2</entry>
+<entry key="for-each">net.morilib.lisp.SubrForEach</entry>
+<!-- arithmetical functions -->
+<entry key="&lt;">NumLessThan</entry>
+<entry key="&lt;=">NumLessThanEq</entry>
+<entry key="&gt;">NumGreaterThan</entry>
+<entry key="&gt;=">NumGreaterThanEq</entry>
+<entry key="=">NumEqual</entry>
+<entry key="+">Add</entry>
+<entry key="-">Sub</entry>
+<entry key="*">Mul</entry>
+<entry key="/">Div</entry>
+<entry key="exact?">IsExact</entry>
+<entry key="inexact?">IsInexact</entry>
+<entry key="zero?">IsZero</entry>
+<entry key="positive?">IsPositive</entry>
+<entry key="negative?">IsNegative</entry>
+<entry key="even?">IsEven</entry>
+<entry key="odd?">IsOdd</entry>
+<entry key="quotient">Quotient</entry>
+<entry key="remainder">Remainder</entry>
+<entry key="modulo">Modulo</entry>
+<entry key="truncate">Truncate</entry>
+<entry key="floor">Floor</entry>
+<entry key="ceiling">Ceiling</entry>
+<entry key="round">Round</entry>
+<entry key="number?">IsNumber</entry>
+<entry key="complex?">IsNumber</entry>
+<entry key="integer?">IsInteger</entry>
+<entry key="rational?">IsRational</entry>
+<entry key="real?">IsReal</entry>
+<entry key="abs">Abs</entry>
+<entry key="exact-&gt;inexact">ExactToInexact</entry>
+<entry key="inexact-&gt;exact">InexactToExact</entry>
+<entry key="max">Max</entry>
+<entry key="min">Min</entry>
+<entry key="gcd">Gcd</entry>
+<entry key="lcm">Lcm</entry>
+<entry key="rationalize">Rationalize</entry>
+<entry key="numerator">Numerator</entry>
+<entry key="denominator">Denominator</entry>
+<entry key="real-part">RealPart</entry>
+<entry key="imag-part">ImagPart</entry>
+<entry key="make-rectangular">MakeRectangular</entry>
+<entry key="make-polar">MakePolar</entry>
+<entry key="angle">Angle</entry>
+<entry key="magnitude">Magnitude</entry>
+<entry key="string-&gt;number">StringToNumber</entry>
+<entry key="number-&gt;string">NumberToString</entry>
+<!-- mathematical functions -->
+<entry key="expt">Expt</entry>
+<entry key="sqrt">Sqrt</entry>
+<entry key="exp">Exp</entry>
+<entry key="log">Log</entry>
+<entry key="sin">Sin</entry>
+<entry key="cos">Cos</entry>
+<entry key="tan">Tan</entry>
+<entry key="asin">Asin</entry>
+<entry key="acos">Acos</entry>
+<entry key="atan">Atan</entry>
+<!-- character -->
+<entry key="char?">IsChar</entry>
+<entry key="char&lt;?">CharLessThan</entry>
+<entry key="char&lt;=?">CharLessThanEq</entry>
+<entry key="char&gt;?">CharGreaterThan</entry>
+<entry key="char&gt;=?">CharGreaterThanEq</entry>
+<entry key="char=?">CharEqual</entry>
+<entry key="char-ci&lt;?">CharCILessThan</entry>
+<entry key="char-ci&lt;=?">CharCILessThanEq</entry>
+<entry key="char-ci&gt;?">CharCIGreaterThan</entry>
+<entry key="char-ci&gt;=?">CharCIGreaterThanEq</entry>
+<entry key="char-ci=?">CharCIEqual</entry>
+<entry key="char-alphabetic?">IsCharAlphabetic</entry>
+<entry key="char-numeric?">IsCharNumeric</entry>
+<entry key="char-lower-case?">IsCharLowerCase</entry>
+<entry key="char-upper-case?">IsCharUpperCase</entry>
+<entry key="char-whitespace?">IsCharWhitespace</entry>
+<entry key="char-upcase">CharUpcase</entry>
+<entry key="char-downcase">CharDowncase</entry>
+<entry key="char-&gt;integer">CharToInteger</entry>
+<entry key="integer-&gt;char">IntegerToChar</entry>
+<!-- string -->
+<entry key="string?">IsString</entry>
+<entry key="string&lt;?">StringLessThan</entry>
+<entry key="string&lt;=?">StringLessThanEq</entry>
+<entry key="string&gt;?">StringGreaterThan</entry>
+<entry key="string&gt;=?">StringGreaterThanEq</entry>
+<entry key="string=?">StringEqual</entry>
+<entry key="string-ci&lt;?">StringCILessThan</entry>
+<entry key="string-ci&lt;=?">StringCILessThanEq</entry>
+<entry key="string-ci&gt;?">StringCIGreaterThan</entry>
+<entry key="string-ci&gt;=?">StringCIGreaterThanEq</entry>
+<entry key="string-ci=?">StringCIEqual</entry>
+<entry key="string">StringFromChar</entry>
+<entry key="make-string">MakeString</entry>
+<entry key="string-length">StringLength</entry>
+<entry key="string-ref">StringRef</entry>
+<entry key="string-copy">StringCopy</entry>
+<entry key="string-append">StringAppend</entry>
+<entry key="substring">Substring</entry>
+<entry key="string-&gt;list">StringToList</entry>
+<entry key="list-&gt;string">ListToString</entry>
+<entry key="string-set!">net.morilib.lisp.SubrStringSetS</entry>
+<entry key="string-fill!">net.morilib.lisp.LispString$StringFillS</entry>
+<!-- vector -->
+<entry key="vector?">IsVector</entry>
+<entry key="vector">VectorSubr</entry>
+<entry key="make-vector">MakeVector</entry>
+<entry key="vector-length">VectorLength</entry>
+<entry key="vector-ref">VectorRef</entry>
+<entry key="vector-set!">net.morilib.lisp.SubrVectorSetS</entry>
+<entry key="vector-fill!">net.morilib.lisp.SubrVectorFillS</entry>
+<entry key="vector-&gt;list">VectorToList</entry>
+<entry key="list-&gt;vector">ListToVector</entry>
+<!-- stream -->
+<entry key="force">net.morilib.lisp.SubrForce</entry>
+<!-- io -->
+<entry key="input-port?">IsInputPort</entry>
+<entry key="current-input-port">
+  net.morilib.lisp.SubrCurrentInputPort
+</entry>
+<entry key="open-input-file">net.morilib.lisp.SubrOpenInputFile</entry>
+<entry key="close-input-port">CloseInputPort</entry>
+<entry key="read">net.morilib.lisp.SubrRead</entry>
+<entry key="read-char">net.morilib.lisp.SubrReadChar</entry>
+<entry key="peek-char">net.morilib.lisp.SubrPeekChar</entry>
+<entry key="eof-object?">IsEofObject</entry>
+<entry key="char-ready?">net.morilib.lisp.SubrIsCharReady</entry>
+<entry key="output-port?">IsOutputPort</entry>
+<entry key="current-output-port">
+  net.morilib.lisp.SubrCurrentOutputPort
+</entry>
+<entry key="open-output-file">net.morilib.lisp.SubrOpenOutputFile</entry>
+<entry key="close-output-port">CloseOutputPort</entry>
+<entry key="write">Write</entry>
+<entry key="display">Display</entry>
+<entry key="write-char">WriteChar</entry>
+<entry key="newline">Newline</entry>
+<entry key="with-output-to-file">
+  net.morilib.lisp.SubrWithOutputToFile
+</entry>
+<entry key="with-input-from-file">
+  net.morilib.lisp.SubrWithInputFromFile
+</entry>
+<entry key="transcript-off">TranscriptOff</entry>
+<entry key="transcript-on">TranscriptOn</entry>
+<!-- eval, etc. -->
+<entry key="eval">net.morilib.lisp.SubrEval</entry>
+<entry key="null-environment">net.morilib.lisp.SubrNullEnvironment</entry>
+<entry key="scheme-report-environment">
+  net.morilib.lisp.SubrSchemeReportEnvironment
+</entry>
+<entry key="interaction-environment">
+  net.morilib.lisp.SubrInteractionEnvironment
+</entry>
+<entry key="load">net.morilib.lisp.SubrLoad</entry>
+<entry key="exit">Exit</entry>
+</properties>

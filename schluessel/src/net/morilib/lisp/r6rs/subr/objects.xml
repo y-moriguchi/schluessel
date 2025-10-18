@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="inexact">net.morilib.lisp.subr.ExactToInexact</entry>
+<entry key="exact">net.morilib.lisp.subr.InexactToExact</entry>
+<entry key="finite?">IsFinite</entry>
+<entry key="infinite?">IsInfinite</entry>
+<entry key="nan?">IsNan</entry>
+<entry key="div0-and-mod0">Div0AndMod0</entry>
+<entry key="div0">Div0</entry>
+<entry key="mod0">Mod0</entry>
+<entry key="div-and-mod">DivAndMod</entry>
+<entry key="div">Div</entry>
+<entry key="mod">Mod</entry>
+<entry key="exact-integer-sqrt">ExactIntegerSqrt</entry>
+<entry key="boolean=?">IsBooleanEq</entry>
+<entry key="symbol=?">IsSymbolEq</entry>
+<entry key="real-valued?">IsRealValued</entry>
+<entry key="rational-valued?">IsRationalValued</entry>
+<entry key="integer-valued?">IsIntegerValued</entry>
+<!-- library -->
+<entry key="list-sort">ListSort</entry>
+<entry key="vector-sort">VectorSort</entry>
+<entry key="vector-sort!">net.morilib.lisp.LispVector$VectorSortS</entry>
+</properties>

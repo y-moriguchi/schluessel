@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="desktop-browse">DesktopBrowse</entry>
+<entry key="desktop-edit">DesktopEdit</entry>
+<entry key="desktop-mail">DesktopMail</entry>
+<entry key="desktop-open">DesktopOpen</entry>
+<entry key="desktop-print">DesktopPrint</entry>
+<entry key="desktop-supported?">IsDesktopSupported</entry>
+</properties>

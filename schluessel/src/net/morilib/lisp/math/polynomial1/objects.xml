@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- polynomial1 -->
+<entry key="degree-polynomial1">DegreePolynomial1</entry>
+<entry key="integrate-polynomial1">IntegratePolynomial1</entry>
+<entry key="polynomial1?">IsPolynomial1</entry>
+<entry key="polynomial1">Polynomial1</entry>
+<entry key="polynomial1-ref">Polynomial1Ref</entry>
+<entry key="solve-polynomial1">SolvePolynomial1</entry>
+<entry key="solve-polynomial1-by-bairstow">SolvePolynomial1ByBairstow</entry>
+</properties>

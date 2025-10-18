@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- pi -->
+<entry key="pi">net.morilib.lisp.math.constants.LispPi.PI</entry>
+<entry key="pi/180">net.morilib.lisp.math.constants.LispPi.ONE_DEGREE</entry>
+<!-- e(Napier's constant) -->
+<entry key="e">net.morilib.lisp.math.constants.LispExp.NAPIER</entry>
+<!-- metallic ratio -->
+<entry key="golden-number">
+  net.morilib.lisp.math.constants.LispSqrt.GOLDEN_NUMBER
+</entry>
+<entry key="silver-number">
+  net.morilib.lisp.math.constants.LispSqrt.SILVER_NUMBER
+</entry>
+<!-- etc -->
+<entry key="champernowne-constant">
+  net.morilib.lisp.math.constants.LispChampernowneConstant.CONSTANT
+</entry>
+</properties>

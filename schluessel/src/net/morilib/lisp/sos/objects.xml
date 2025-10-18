@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- object system -->
+<entry key="define-method">net.morilib.lisp.SynDefineMethod</entry>
+<entry key="slot-ref">SlotRef</entry>
+<entry key="slot-set!">SlotSetS</entry>
+<entry key="class?">IsClass</entry>
+<entry key="class-of">ClassOf</entry>
+<entry key="class-precedence-list">ClassPrecedenceList</entry>
+<entry key="class-name">ClassName</entry>
+<entry key="slot-allocation">SlotAllocation</entry>
+<!-- object system (Internal use) -->
+<entry key="sos$remove-method-proc">
+  net.morilib.lisp.LispGeneric$Remove
+</entry>
+<entry key="instantiate-class">InstantiateClass</entry>
+<entry key="instantiate">Instantiate</entry>
+<entry key="instantiate-generic">
+  net.morilib.lisp.SubrInstantiateGeneric
+</entry>
+<entry key="redefine-class">RedefineClass</entry>
+</properties>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="fixnum-width">FixnumWidth</entry>
+<entry key="fx+">FxAdd</entry>
+<entry key="fx+/carry">FxAddWithCarry</entry>
+<entry key="fxand">Fxand</entry>
+<entry key="fxarithmetic-shift">FxarithmeticShift</entry>
+<entry key="fxarithmetic-shift-left">FxarithmeticShiftLeft</entry>
+<entry key="fxarithmetic-shift-right">FxarithmeticShiftRight</entry>
+<entry key="fxbit-count">FxbitCount</entry>
+<entry key="fxbit-field">FxbitField</entry>
+<entry key="fxcopy-bit">FxcopyBit</entry>
+<entry key="fxcopy-bit-field">FxcopyBitField</entry>
+<entry key="fxdiv">Fxdiv</entry>
+<entry key="fxdiv0">Fxdiv0</entry>
+<entry key="fxdiv0-and-mod0">Fxdiv0AndMod0</entry>
+<entry key="fxdiv-and-mod">FxdivAndMod</entry>
+<entry key="fxfirst-bit-set">FxfirstBitSet</entry>
+<entry key="fxif">Fxif</entry>
+<entry key="fxior">Fxior</entry>
+<entry key="fxlength">Fxlength</entry>
+<entry key="fxmax">Fxmax</entry>
+<entry key="fxmin">Fxmin</entry>
+<entry key="fxmod">Fxmod</entry>
+<entry key="fxmod0">Fxmod0</entry>
+<entry key="fx*">FxMul</entry>
+<entry key="fx*/carry">FxMulWithCarry</entry>
+<entry key="fxnot">Fxnot</entry>
+<entry key="fxreverse-bit-field">FxreverseBitField</entry>
+<entry key="fxrotate-bit-field">FxrotateBitField</entry>
+<entry key="fx-">FxSub</entry>
+<entry key="fx-/carry">FxSubWithCarry</entry>
+<entry key="fxxor">Fxxor</entry>
+<entry key="greatest-fixnum">GreatestFixnum</entry>
+<entry key="fixnum?">IsFixnum</entry>
+<entry key="fxbit-set?">IsFxbitSet</entry>
+<entry key="fx=?">IsFxEq</entry>
+<entry key="fxeven?">IsFxeven</entry>
+<entry key="fx&gt;?">IsFxGt</entry>
+<entry key="fx&gt;=?">IsFxGtEq</entry>
+<entry key="fx&lt;?">IsFxLt</entry>
+<entry key="fx&lt;=?">IsFxLtEq</entry>
+<entry key="fxnegative?">IsFxnegative</entry>
+<entry key="fxodd?">IsFxodd</entry>
+<entry key="fxpositive?">IsFxpositive</entry>
+<entry key="fxzero?">IsFxzero</entry>
+<entry key="least-fixnum">LeastFixnum</entry>
+</properties>

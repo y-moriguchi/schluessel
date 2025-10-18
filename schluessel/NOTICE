@@ -1,0 +1,11 @@
+Schluessel
+Copyright 2009-2012 Yuichiro Moriguchi
+
+-----------------------------------------------------------------------
+The MersenneTwisterRandom class in package net.morilib.math.random
+includes software translated from the 2002-01-26 version of
+the Mersenne-Twister generator written in C by Makoto Matsumoto and
+Takuji Nishimura.
+Original source copyright:
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+All rights reserved 

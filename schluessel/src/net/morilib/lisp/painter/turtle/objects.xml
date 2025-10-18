@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="make-turtle">MakeTurtle</entry>
+<entry key="turtle-change-color">TurtleChangeColor</entry>
+<entry key="turtle-clear">TurtleClear</entry>
+<entry key="turtle-draw">TurtleDraw</entry>
+<entry key="turtle-hide">TurtleHide</entry>
+<entry key="turtle-move">TurtleMove</entry>
+<entry key="turtle-show">TurtleShow</entry>
+<entry key="turtle-turn-left">TurtleTurnLeft</entry>
+<entry key="turtle-turn-right">TurtleTurnRight</entry>
+<entry key="turtle-undo">TurtleUndo</entry>
+</properties>

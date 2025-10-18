@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="make-swing-timer">MakeSwingTimer</entry>
+<entry key="swing-invoke-and-wait">SwingInvokeAndWait</entry>
+<entry key="swing-invoke-later">SwingInvokeLater</entry>
+<entry key="swing-timer-restart">SwingTimerRestart</entry>
+<entry key="swing-timer-start">SwingTimerStart</entry>
+<entry key="swing-timer-stop">SwingTimerStop</entry>
+<entry key="update-component-tree-ui">UpdateComponentTreeUi</entry>
+</properties>

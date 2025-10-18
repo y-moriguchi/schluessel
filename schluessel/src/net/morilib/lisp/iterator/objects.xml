@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- iterators -->
+<entry key="compound-iterator">CompoundIterator</entry>
+<entry key="filtered-iterator">FilteredIterator</entry>
+<entry key="group-iterator">GroupIterator</entry>
+<entry key="iterable?">IsIterable</entry>
+<entry key="iterator?">IsIterator</entry>
+<entry key="iterator-null?">IsIteratorNull</entry>
+<entry key="iterator-car">IteratorCar</entry>
+<entry key="iterator-cdr">IteratorCdr</entry>
+<entry key="iterator-&gt;list">IteratorToList</entry>
+<entry key="list-group-iterator">ListGroupIterator</entry>
+<entry key="make-csv-iterator">MakeCsvIterator</entry>
+<entry key="make-real-number-iterator">MakeRealNumberIterator</entry>
+<entry key="make-string-tokenizer">MakeStringTokenizer</entry>
+<entry key="make-tree-walker">MakeTreeWalker</entry>
+<entry key="-&gt;iterator">ToIterator</entry>
+<entry key="transformed-iterator">TransformedIterator</entry>
+<entry key="string-group-iterator">StringGroupIterator</entry>
+<entry key="vector-group-iterator">VectorGroupIterator</entry>
+</properties>

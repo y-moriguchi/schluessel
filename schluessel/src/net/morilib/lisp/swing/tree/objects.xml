@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="jtree-last-path-for-location">JtreeLastPathForLocation</entry>
+<entry key="jtree-node-add!">JtreeNodeAddS</entry>
+<entry key="jtree-node-insert!">JtreeNodeInsertS</entry>
+<entry key="jtree-node-&gt;datum">JtreeNodeToDatum</entry>
+<entry key="jtree-node-&gt;datum-tree">JtreeNodeToDatumTree</entry>
+<entry key="jtree-selected-last-path">JtreeSelectedLastPath</entry>
+<entry key="jtree-selected-last-paths">JtreeSelectedLastPaths</entry>
+<entry key="jtree-selected-path-list">JtreeSelectedPathList</entry>
+<entry key="jtree-selected-path-lists">JtreeSelectedPathLists</entry>
+<entry key="jtree-selection-listener-add!">JtreeSelectionListenerAddS</entry>
+<entry key="jtree-selection-mode">JtreeSelectionMode</entry>
+<entry key="jtree-selection-mode-set!">JtreeSelectionModeSetS</entry>
+<entry key="jtree-path-list-for-location">JtreePathListForLocation</entry>
+<entry key="jtree-renderer-set!">JtreeRendererSetS</entry>
+<entry key="jtree-root">JtreeRoot</entry>
+<entry key="jtree-root-node">JtreeRootNode</entry>
+<entry key="jtree-root-set!">JtreeRootSetS</entry>
+<entry key="make-jtree">MakeJtree</entry>
+</properties>

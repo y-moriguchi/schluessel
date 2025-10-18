@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="make-exp-order">MakeExpOrder</entry>
+<entry key="make-factorial-order">MakeFactorialOrder</entry>
+<entry key="make-log-order">MakeLogOrder</entry>
+<entry key="make-order">MakeOrder</entry>
+<entry key="order-log">OrderLog</entry>
+</properties>

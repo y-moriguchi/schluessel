@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="make-button">LispButton$MakeButton</entry>
+<entry key="make-button-with-action">LispButton$MakeButtonWithAction</entry>
+<entry key="make-canvas">LispCanvas$MakeCanvas</entry>
+<entry key="make-label">LispLabel$MakeLabel</entry>
+<entry key="make-panel">LispPanel$MakePanel</entry>
+<entry key="make-text-field">LispTextField$MakeTextField</entry>
+<entry key="make-text-area">LispTextArea$MakeTextArea</entry>
+<entry key="make-window">LispFrame$MakeWindow</entry>
+<entry key="exec-window">LispFrame$ExecWindow</entry>
+<entry key="make-modal-dialog">LispDialog$MakeModalDialog</entry>
+<entry key="make-modeless-dialog">LispDialog$MakeModelessDialog</entry>
+<entry key="get-text">GetText</entry>
+<entry key="set-text!">SetTextS</entry>
+<entry key="make-combobox">LispComboBox$MakeComboBox</entry>
+<entry key="make-listbox">LispComboBox$MakeListBox</entry>
+<entry key="get-selected-item-value">Selectable$GetSelectedItemValue</entry>
+<entry key="show-yes-no-dialog">LispOptionPane$ShowYesNoDialog</entry>
+<entry key="show-yes-no-cancel-dialog">LispOptionPane$ShowYesNoCancelDialog</entry>
+<entry key="show-input-dialog">LispOptionPane$ShowInputDialog</entry>
+<entry key="show-message-dialog">LispOptionPane$ShowMessageDialog</entry>
+<entry key="make-checkbox">LispCheckBox$MakeCheckbox</entry>
+<entry key="checkbox-checked?">LispCheckBox$IsCheckboxChecked</entry>
+<entry key="set-checkbox-checked!">LispCheckBox$SetCheckboxCheckedS</entry>
+<entry key="make-file-chooser">LispFileChooser$MakeFileChooser</entry>
+<entry key="set-file-selection-mode!">LispFileChooser$SetFileSelectionModeS</entry>
+<entry key="set-accept-all-file-filter-used!">
+  LispFileChooser$SetAcceptAllFileFilterUsedS
+</entry>
+<entry key="show-open-file-chooser">LispFileChooser$ShowOpenFileChooser</entry>
+<entry key="show-save-file-chooser">LispFileChooser$ShowSaveFileChooser</entry>
+<entry key="show-file-chooser">LispFileChooser$ShowFileChooser</entry>
+<entry key="show-window">ShowWindow</entry>
+<entry key="hide-window">HideWindow</entry>
+<entry key="set-dialog-resizable!">ILispDialog$SetDialogResizableS</entry>
+<entry key="make-menu-item">LispMenuItem$MakeMenuItem</entry>
+<entry key="make-radio-button">LispRadioButton$MakeRadioButton</entry>
+<entry key="make-button-group">LispButtonGroup$MakeButtonGroup</entry>
+<entry key="copy-to-system-clipboard!">CopyToSystemClipboardS</entry>
+<entry key="get-gui-element-width">GUIElement$GetGuiElementWidth</entry>
+<entry key="get-gui-element-height">GUIElement$GetGuiElementHeight</entry>
+<entry key="set-background-color!">GUIElement$SetBackgroundColorS</entry>
+<entry key="set-preferred-width!">GUIElement$SetPreferredWidthS</entry>
+<entry key="set-preferred-height!">GUIElement$SetPreferredHeightS</entry>
+<entry key="get-bounds-x">GUIElement$GetBoundsX</entry>
+<entry key="get-bounds-y">GUIElement$GetBoundsY</entry>
+<entry key="set-bounds-x!">GUIElement$SetBoundsXS</entry>
+<entry key="set-bounds-y!">GUIElement$SetBoundsYS</entry>
+<entry key="get-selected-button-value">
+  LispButtonGroup$GetSelectedButtonValue
+</entry>
+<entry key="set-selected-button-value!">
+  LispButtonGroup$SetSelectedButtonValueS
+</entry>
+<entry key="make-horizontal-scroll-bar">
+  LispScrollBar$MakeHorizontalScrollBar
+</entry>
+<entry key="make-vertical-scroll-bar">
+  LispScrollBar$MakeVerticalScrollBar
+</entry>
+<entry key="get-scroll-bar-value">LispScrollBar$GetScrollBarValue</entry>
+<entry key="get-scroll-bar-relative-value">
+  LispScrollBar$GetScrollBarRelativeValue
+</entry>
+<entry key="make-layered-pane">LispLayeredPane$MakeLayeredPane</entry>
+<entry key="make-number-spinner">LispNumberSpinner$MakeNumberSpinner</entry>
+<entry key="make-tabbed-pane">LispTabbedPane$MakeTabbedPane</entry>
+<entry key="get-selected-tab">LispTabbedPane$GetSelectedTab</entry>
+<entry key="make-image-icon">LispImageIcon$MakeImageIcon</entry>
+<entry key="make-frame-icon">LispFrameIcon$MakeFrameIcon</entry>
+<entry key="make-text-pane">LispTextPane$MakeTextPane</entry>
+<entry key="set-default-key-action!">LispTextPane$SetDefaultKeyActionS</entry>
+<entry key="add-key-action!">LispTextPane$AddKeyActionS</entry>
+<entry key="set-style!">LispTextPane$SetStyleS</entry>
+<entry key="get-number-from-spinner">LispNumberSpinner$GetNumberFromSpinner</entry>
+<entry key="make-scroll-pane">LispScrollPane$MakeScrollPane</entry>
+<entry key="save-component">SaveComponent</entry>
+<entry key="load-component">LoadComponent</entry>
+<entry key="show-color-chooser">LispColorChooser$ShowColorChooser</entry>
+<entry key="make-popup-menu">LispPopupMenu$MakePopupMenu</entry>
+<entry key="show-popup-menu">LispPopupMenu$ShowPopupMenu</entry>
+<entry key="hide-popup-menu">LispPopupMenu$HidePopupMenu</entry>
+<entry key="tool-tip-text">ToolTipText</entry>
+<entry key="tool-tip-text-set!">ToolTipTextSetS</entry>
+<entry key="label-icon-set!">LispLabel$LabelIconSetS</entry>
+<entry key="installed-look-and-feel-names">InstalledLookAndFeelNames</entry>
+<entry key="look-and-feel-set!">LookAndFeelSetS</entry>
+<!-- toolkits -->
+<entry key="beep">LispToolkit$Beep</entry>
+<!-- layouts -->
+<entry key="layout-grid-bag">LayoutGridBag</entry>
+<entry key="layout-grid">LayoutGrid</entry>
+<entry key="layout-border">LayoutBorder</entry>
+<entry key="layout-flow">LayoutFlow</entry>
+<entry key="layout-group">LayoutGroup</entry>
+<entry key="layout-null">LayoutNull</entry>
+<!-- events -->
+<entry key="add-mouse-listener!">GUIElement$AddMouseListenerS</entry>
+<entry key="get-action-command">
+  net.morilib.lisp.swing.event.LispActionEvent$GetActionCommand
+</entry>
+<entry key="get-when">
+  net.morilib.lisp.swing.event.LispActionEvent$GetWhen
+</entry>
+<entry key="get-param-string">
+  net.morilib.lisp.swing.event.LispActionEvent$GetParamString
+</entry>
+<entry key="get-mouse-button">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseButton
+</entry>
+<entry key="get-mouse-click-count">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseClickCount
+</entry>
+<entry key="get-mouse-x">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseX
+</entry>
+<entry key="get-mouse-y">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseY
+</entry>
+<entry key="get-mouse-x&amp;y">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseXEtY
+</entry>
+<entry key="get-mouse-x-on-screen">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseXOnScreen
+</entry>
+<entry key="get-mouse-y-on-screen">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseYOnScreen
+</entry>
+<entry key="get-mouse-x&amp;y-on-screen">
+  net.morilib.lisp.swing.event.LispMouseEvent$GetMouseXEtYOnScreen
+</entry>
+<entry key="popup-trigger?">
+  net.morilib.lisp.swing.event.LispMouseEvent$IsPopupTrigger
+</entry>
+<entry key="get-event-selected-item-value">
+  net.morilib.lisp.swing.event.LispItemEvent$GetEventSelectedItemValue
+</entry>
+<entry key="get-event-adjustment-value">
+  net.morilib.lisp.swing.event.LispAdjustmentEvent$GetEventAdjustmentValue
+</entry>
+</properties>

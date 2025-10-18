@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="classpath-vicinities">ClasspathVicinities</entry>
+<entry key="home-vicinity">HomeVicinity</entry>
+<entry key="implementation-vicinity">ImplementationVicinity</entry>
+<entry key="in-vicinity">InVicinity</entry>
+<entry key="vicinity:suffix?">IsVicinitySuffix</entry>
+<entry key="java-vicinity">JavaVicinity</entry>
+<entry key="library-vicinity">LibraryVicinity</entry>
+<entry key="make-vicinity">MakeVicinity</entry>
+<entry key="pathname-&gt;vicinity">PathnameToVicinity</entry>
+<entry key="path-vicinities">PathVicinities</entry>
+<entry key="program-vicinity">ProgramVicinity</entry>
+<entry key="sub-vicinity">SubVicinity</entry>
+<entry key="user-vicinity">UserVicinity</entry>
+</properties>

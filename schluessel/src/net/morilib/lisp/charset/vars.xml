@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- character set -->
+<entry key="char-set:lower-case">net.morilib.lisp.charset.LispCharSet.LOWER_CASE</entry>
+<entry key="char-set:upper-case">net.morilib.lisp.charset.LispCharSet.UPPER_CASE</entry>
+<entry key="char-set:title-case">net.morilib.lisp.charset.LispCharSet.TITLE_CASE</entry>
+<entry key="char-set:letter">net.morilib.lisp.charset.LispCharSet.LETTER</entry>
+<entry key="char-set:digit">net.morilib.lisp.charset.LispCharSet.DIGIT</entry>
+<entry key="char-set:letter+digit">net.morilib.lisp.charset.LispCharSet.LETTER_PLUS_DIGIT</entry>
+<entry key="char-set:graphic">net.morilib.lisp.charset.LispCharSet.GRAPHIC</entry>
+<entry key="char-set:printing">net.morilib.lisp.charset.LispCharSet.PRINTING</entry>
+<entry key="char-set:whitespace">net.morilib.lisp.charset.LispCharSet.WHITESPACE</entry>
+<entry key="char-set:iso-control">net.morilib.lisp.charset.LispCharSet.ISO_CONTROL</entry>
+<entry key="char-set:punctuation">net.morilib.lisp.charset.LispCharSet.PUNCTATION</entry>
+<entry key="char-set:symbol">net.morilib.lisp.charset.LispCharSet.SYMBOL</entry>
+<entry key="char-set:hex-digit">net.morilib.lisp.charset.LispCharSet.HEX_DIGIT</entry>
+<entry key="char-set:blank">net.morilib.lisp.charset.LispCharSet.BLANK</entry>
+<entry key="char-set:ascii">net.morilib.lisp.charset.LispCharSet.ASCII</entry>
+<entry key="char-set:empty">net.morilib.lisp.charset.LispCharSet.EMPTY</entry>
+<entry key="char-set:full">net.morilib.lisp.charset.LispCharSet.FULL</entry>
+</properties>

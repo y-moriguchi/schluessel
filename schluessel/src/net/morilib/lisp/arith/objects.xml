@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- arithmetics -->
+<entry key="octonion?">IsOctonion</entry>
+<entry key="quaternion?">IsQuaternion</entry>
+<entry key="make-octonion">MakeOctonion</entry>
+<entry key="make-quaternion">MakeQuaternion</entry>
+<!-- ratio -->
+<entry key=":">SubrRatio</entry>
+<entry key="inverted-ratio-to">InvertedRatioTo</entry>
+<entry key="ratio?">IsRatio</entry>
+<entry key="ratio-to">RatioTo</entry>
+<entry key="ratio-value">RatioValue</entry>
+</properties>

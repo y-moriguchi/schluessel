@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- mathematics -->
+<entry key="make-latitude">MakeLatitude</entry>
+<entry key="make-longitude">MakeLongitude</entry>
+<entry key="string-&gt;latitude">StringToLatitude</entry>
+<entry key="string-&gt;longitude">StringToLongitude</entry>
+</properties>

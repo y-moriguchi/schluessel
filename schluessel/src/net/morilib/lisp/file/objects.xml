@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="chdir">Chdir</entry>
+<entry key="chmod">Chmod</entry>
+<entry key="directory-list">DirectoryList</entry>
+<entry key="directory?">IsDirectory</entry>
+<entry key="file?">IsFile</entry>
+<entry key="exist?">IsExist</entry>
+<entry key="make-path-name">MakePathName</entry>
+<!--
+<entry key="close-line-cursor">ILispLineCursor$CloseLineCursor</entry>
+<entry key="line-cursor-car">ILispLineCursor$LineCursorCar</entry>
+<entry key="line-cursor-cdr">ILispLineCursor$LineCursorCdr</entry>
+<entry key="line-cursor-null?">ILispLineCursor$IsLineCursorNull</entry>
+<entry key="open-line-cursor">LispLineCursor$OpenLineCursor</entry>
+<entry key="open-grep-cursor">LispGrepCursor$OpenGrepCursor</entry>
+<entry key="close-line-buffer">LispLineBuffer$CloseLineBuffer</entry>
+<entry key="put-line-buffer!">LispLineBuffer$PutLineBufferS</entry>
+<entry key="open-file-buffer">LispFileBuffer$OpenFileBuffer</entry>
+<entry key="open-list-buffer">LispListBuffer$OpenListBuffer</entry>
+-->
+<entry key="copy-file">CopyFile</entry>
+<entry key="expand-path">ExpandPath</entry>
+<entry key="absolute-path?">IsAbsolutePath</entry>
+<entry key="file-mtime=?">IsFileMtimeEq</entry>
+<entry key="file-mtime&gt;=?">IsFileMtimeGe</entry>
+<entry key="file-mtime&gt;?">IsFileMtimeGt</entry>
+<entry key="file-mtime&lt;=?">IsFileMtimeLe</entry>
+<entry key="file-mtime&lt;?">IsFileMtimeLt</entry>
+<entry key="relative-path?">IsRelativePath</entry>
+<entry key="mkdir">Mkdir</entry>
+<entry key="move-file">MoveFile</entry>
+<entry key="partition-free-space">PartitionFreeSpace</entry>
+<entry key="partition-total-space">PartitionTotalSpace</entry>
+<entry key="partition-usable-space">PartitionUsableSpace</entry>
+<entry key="remove-file">RemoveFile</entry>
+<entry key="rmdir">Rmdir</entry>
+<entry key="touch-file">TouchFile</entry>
+<entry key="find-filenames">FindFilenames</entry>
+<!-- R6RS -->
+<entry key="file-exists?">IsFile</entry>
+<entry key="delete-file">RemoveFile</entry>
+</properties>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="syntax-&gt;datum">SyntaxToDatum</entry>
+<entry key="datum-&gt;syntax">net.morilib.lisp.SubrDatumToSyntax</entry>
+<entry key="library">net.morilib.lisp.SynLibrary</entry>
+<entry key="import">net.morilib.lisp.SynImport</entry>
+<entry key="syntax">net.morilib.lisp.SynSyntax</entry>
+<entry key="quasisyntax">net.morilib.lisp.SynQuasisyntax</entry>
+<entry key="syntax-case">net.morilib.lisp.SynSyntaxCase</entry>
+<entry key="identifier?">IsIdentifier</entry>
+<entry key="environment">net.morilib.lisp.EnvironmentObject$R6RSEnvironment</entry>
+</properties>

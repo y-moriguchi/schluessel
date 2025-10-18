@@ -1,0 +1,666 @@
+/*
+ * Copyright 2009-2010 Yuichiro Moriguchi
+ *
+ * Licensed under the Apache License, longersion 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package net.morilib.util.primitive.map.pp;
+
+import java.util.AbstractSet;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.NoSuchElementException;
+import java.util.Set;
+
+import net.morilib.util.primitive.AbstractIntegerSet;
+import net.morilib.util.primitive.AbstractLongCollection;
+import net.morilib.util.primitive.IntegerSet;
+import net.morilib.util.primitive.LongCollection;
+import net.morilib.util.primitive.iterator.IntegerIterator;
+import net.morilib.util.primitive.iterator.LongIterator;
+import net.morilib.util.primitive.map.op.LongValueMap;
+import net.morilib.util.primitive.map.po.IntegerMap;
+
+/**
+ *
+ * @author MORIGUCHI, Yuichiro 2010/10/30
+ */
+public abstract class AbstractIntegerLongMap
+implements IntegerLongMap {
+	
+	//
+	private transient IntegerSet keySet = null;
+	private transient LongCollection values = null;
+	private transient Set<PrimitiveEntryK<Long>> entrySetK = null;
+	private transient Set<PrimitiveEntryV<Integer>>  entrySetV = null;
+	private transient Set<Map.Entry<Integer, Long>> entrySet  = null;
+	
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#clear()
+	 */
+	public void clear() {
+		Iterator<PrimitiveEntry> i;
+		
+		i = primitiveEntrySet().iterator();
+		while(i.hasNext()) {
+			i.next();
+			i.remove();
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#inRange(long)
+	 */
+	public boolean containsValueElement(long v) {
+		for(PrimitiveEntry e : primitiveEntrySet()) {
+			if(e.getValue() == v) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#get(java.lang.Object)
+	 */
+	public long f(int k) {
+		for(PrimitiveEntry e : primitiveEntrySet()) {
+			if(e.getKey() == k) {
+				return e.getValue();
+			}
+		}
+		throw new NoSuchElementException();
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.pp.IntegerLongMap#getElement(int)
+	 */
+	public Long getElement(int k) {
+		return f(k);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#isEmpty()
+	 */
+	public boolean isEmpty() {
+		return size() == 0;
+	}
+	
+	//
+	private class KSet extends AbstractIntegerSet {
+		
+		//
+		private Set<PrimitiveEntry> eset;
+		
+		private KSet(Set<PrimitiveEntry> eset) {
+			this.eset = eset;
+		}
+		
+		public IntegerIterator intIterator() {
+			final Iterator<PrimitiveEntry> ei = eset.iterator();
+			
+			return new IntegerIterator() {
+
+				public boolean hasNext() {
+					return ei.hasNext();
+				}
+
+				public int next() {
+					return ei.next().getKey();
+				}
+
+				public void remove() {
+					ei.remove();
+				}
+				
+			};
+		}
+
+		public int size() {
+			return AbstractIntegerLongMap.this.size();
+		}
+
+		public boolean containsInt(int o) {
+			return containsKeyElement(o);
+		}
+
+		public boolean remove(Object o) {
+			return AbstractIntegerLongMap.this.remove(o) != null;
+		}
+
+		public void clear() {
+			AbstractIntegerLongMap.this.clear();
+		}
+
+		public boolean addInt(int v) {
+			throw new UnsupportedOperationException();
+		}
+		
+	}
+	
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#keySet()
+	 */
+	public IntegerSet intKeySet() {
+		return (keySet == null) ?
+				(keySet = new KSet(primitiveEntrySet())) : keySet;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#putAll(net.morilib.util.primitive.map.op.ToLongMap)
+	 */
+	public void putAllElement(IntegerLongMap map) {
+		for(PrimitiveEntry e : map.primitiveEntrySet()) {
+			putElement(e.getKey(), e.getValue());
+		}
+	}
+	
+	//
+	private class VCol extends AbstractLongCollection {
+		
+		//
+		private Set<PrimitiveEntry> eset;
+		
+		private VCol(Set<PrimitiveEntry> eset) {
+			this.eset = eset;
+		}
+
+		public LongIterator longIterator() {
+			final Iterator<PrimitiveEntry> ei = eset.iterator();
+			
+			return new LongIterator() {
+
+				public boolean hasNext() {
+					return ei.hasNext();
+				}
+
+				public long next() {
+					return ei.next().getValue();
+				}
+
+				public void remove() {
+					ei.remove();
+				}
+				
+			};
+		}
+
+		public int size() {
+			return AbstractIntegerLongMap.this.size();
+		}
+
+		public boolean addLong(long v) {
+			throw new UnsupportedOperationException();
+		}
+
+		public boolean isInfinite() {
+			return false;
+		}
+
+		public boolean containsLong(long o) {
+			return containsValueElement(o);
+		}
+
+		public boolean remove(Object o) {
+			return AbstractIntegerLongMap.this.remove(o) != null;
+		}
+
+		public void clear() {
+			AbstractIntegerLongMap.this.clear();
+		}
+		
+	}
+	
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#values()
+	 */
+	public LongCollection values() {
+		return (values == null) ?
+				(values = new VCol(primitiveEntrySet())) : values;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.ToLongMap#isTotal()
+	 */
+	public boolean isTotal() {
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#containsKey(java.lang.Object)
+	 */
+	public boolean containsKey(Object key) {
+		if(key instanceof Long) {
+			return containsKeyElement(((Integer)key).intValue());
+		}
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#get(java.lang.Object)
+	 */
+	public Long get(Object key) {
+		if(key instanceof Long) {
+			return getElement(((Integer)key).intValue());
+		}
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#put(java.lang.Object, java.lang.Object)
+	 */
+	public Long put(Integer key, long value) {
+		return putElement(key.intValue(), value);
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#remove(java.lang.Object)
+	 */
+	public Long remove(Object key) {
+		if(key instanceof Long) {
+			return removeElement(((Integer)key).intValue());
+		}
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#putAll(java.util.Map)
+	 */
+	public void putAll(Map<? extends Integer, ? extends Long> m) {
+		for(Map.Entry<? extends Integer, ? extends Long> e : m.entrySet()) {
+			put(e.getKey(), e.getValue());
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#keySet()
+	 */
+	public IntegerSet keySet() {
+		return intKeySet();
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#entrySet()
+	 */
+	public Set<Entry<Integer, Long>> entrySet() {
+		final Set<PrimitiveEntry> e = primitiveEntrySet();
+		
+		if(entrySet == null) {
+			entrySet = new AbstractSet<Entry<Integer, Long>>() {
+	
+				public Iterator<Map.Entry<Integer, Long>> iterator() {
+					final Iterator<PrimitiveEntry> i = e.iterator();
+					
+					return new Iterator<Entry<Integer, Long>>() {
+	
+						public boolean hasNext() {
+							return i.hasNext();
+						}
+	
+						public Map.Entry<Integer, Long> next() {
+							final PrimitiveEntry o = i.next();
+							
+							return new Map.Entry<Integer, Long>() {
+	
+								public Integer getKey() {
+									return o.getKey();
+								}
+	
+								public Long getValue() {
+									return o.getValue();
+								}
+	
+								public Long setValue(Long value) {
+									return o.setValue(value);
+								}
+								
+							};
+						}
+	
+						public void remove() {
+							i.remove();
+						}
+						
+					};
+				}
+	
+				public int size() {
+					return e.size();
+				}
+				
+			};
+		}
+		return entrySet;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#containsKey(int)
+	 */
+	public boolean containsKey(int k) {
+		if(k < Integer.MIN_VALUE || k > Integer.MAX_VALUE) {
+			throw new IllegalArgumentException();
+		}
+		return containsKeyElement((int)k);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#containsKeyLong(long)
+	 */
+	public boolean containsKeyElement(int k) {
+		for(PrimitiveEntry e : primitiveEntrySet()) {
+			if(e.getKey() == k) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#get(int)
+	 */
+	public Long get(int k) {
+		if(k < Long.MIN_VALUE || k > Long.MAX_VALUE) {
+			throw new IllegalArgumentException();
+		}
+		return getElement((long)k);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#put(int, java.lang.Object)
+	 */
+	public Long put(int k, Long v) {
+		if(k < Long.MIN_VALUE || k > Long.MAX_VALUE) {
+			throw new IllegalArgumentException();
+		}
+		return putElement((int)k, v);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#removeElement(long)
+	 */
+	public Long removeElement(int k) {
+		Iterator<PrimitiveEntry> i;
+		
+		i = primitiveEntrySet().iterator();
+		while(i.hasNext()) {
+			PrimitiveEntry e = i.next();
+			
+			if(e.getKey() == k) {
+				long r = e.getValue();
+				
+				i.remove();
+				return r;
+			}
+		}
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.LongMap#remove(int)
+	 */
+	public Long remove(int k) {
+		if(k < Long.MIN_VALUE || k > Long.MAX_VALUE) {
+			throw new IllegalArgumentException();
+		}
+		return removeElement((int)k);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.IntegerMap#intEntrySet()
+	 */
+	public Set<PrimitiveEntryK<Long>> intKeyEntrySet() {
+		final Set<PrimitiveEntry> e = primitiveEntrySet();
+		
+		if(entrySetK == null) {
+			entrySetK = new AbstractSet<PrimitiveEntryK<Long>>() {
+	
+				public Iterator<PrimitiveEntryK<Long>> iterator() {
+					final Iterator<PrimitiveEntry> i = e.iterator();
+					
+					return new Iterator<PrimitiveEntryK<Long>>() {
+	
+						public boolean hasNext() {
+							return i.hasNext();
+						}
+	
+						public PrimitiveEntryK<Long> next() {
+							final PrimitiveEntry o = i.next();
+							
+							return new PrimitiveEntryK<Long>() {
+	
+								public int getKey() {
+									return o.getKey();
+								}
+	
+								public Long getValue() {
+									return o.getValue();
+								}
+	
+								public Long setValue(Long value) {
+									return o.setValue(value);
+								}
+								
+							};
+						}
+	
+						public void remove() {
+							i.remove();
+						}
+						
+					};
+				}
+	
+				public int size() {
+					return e.size();
+				}
+				
+			};
+		}
+		return entrySetK;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.IntegerMap#putElement(int, java.lang.Object)
+	 */
+	public Long putElement(int k, Long v) {
+		return putElement(k, v);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.po.IntegerMap#putAllElement(net.morilib.util.primitive.map.po.IntegerMap)
+	 */
+	public void putAllElement(IntegerMap<Long> map) {
+		Iterator<IntegerMap.PrimitiveEntryK<Long>> i;
+		
+		i = map.intKeyEntrySet().iterator();
+		while(i.hasNext()) {
+			IntegerMap.PrimitiveEntryK<Long> e = i.next();
+			
+			putElement(e.getKey(), e.getValue());
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#containsValue(int)
+	 */
+	public boolean containsValue(int v) {
+		if(v < Integer.MIN_VALUE || v > Integer.MAX_VALUE) {
+			throw new IllegalArgumentException();
+		}
+		return containsValueElement((long)v);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#longValueEntrySet()
+	 */
+	public Set<PrimitiveEntryV<Integer>> longValueEntrySet() {
+		final Set<PrimitiveEntry> e = primitiveEntrySet();
+		
+		if(entrySetV == null) {
+			entrySetV = new AbstractSet<PrimitiveEntryV<Integer>>() {
+	
+				public Iterator<PrimitiveEntryV<Integer>> iterator() {
+					final Iterator<PrimitiveEntry> i = e.iterator();
+					
+					return new Iterator<PrimitiveEntryV<Integer>>() {
+	
+						public boolean hasNext() {
+							return i.hasNext();
+						}
+	
+						public PrimitiveEntryV<Integer> next() {
+							final PrimitiveEntry o = i.next();
+							
+							return new PrimitiveEntryV<Integer>() {
+	
+								public Integer getKey() {
+									return o.getKey();
+								}
+	
+								public long getValue() {
+									return o.getValue();
+								}
+	
+								public long setValue(long value) {
+									return o.setValue(value);
+								}
+								
+							};
+						}
+	
+						public void remove() {
+							i.remove();
+						}
+						
+					};
+				}
+	
+				public int size() {
+					return e.size();
+				}
+				
+			};
+		}
+		return entrySetV;
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#getElement(java.lang.Object)
+	 */
+	public long getElement(Object k) {
+		if(k instanceof Integer) {
+			return f(((Integer)k).intValue());
+		}
+		throw new IllegalArgumentException();
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#putElement(java.lang.Object, long)
+	 */
+	public long putElement(Integer k, long v) {
+		return putElement(k, v);
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#putAllElement(net.morilib.util.primitive.map.op.LongValueMap)
+	 */
+	public void putAllElement(LongValueMap<Integer> map) {
+		Iterator<LongValueMap.PrimitiveEntryV<Integer>> i;
+		
+		i = map.longValueEntrySet().iterator();
+		while(i.hasNext()) {
+			LongValueMap.PrimitiveEntryV<Integer> e = i.next();
+			
+			putElement(e.getKey(), e.getValue());
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see net.morilib.util.primitive.map.op.LongValueMap#longValues()
+	 */
+	public LongCollection longValues() {
+		return values();
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#containsValue(java.lang.Object)
+	 */
+	public boolean containsValue(Object value) {
+		if(value instanceof Long) {
+			return containsValueElement(((Long)value).longValue());
+		}
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.util.Map#put(java.lang.Object, java.lang.Object)
+	 */
+	public Long put(Integer key, Long value) {
+		return putElement(key.intValue(), value.longValue());
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	public int hashCode() {
+		int r = 0;
+		
+		for(PrimitiveEntry e : primitiveEntrySet()) {
+			r += e.hashCode();
+		}
+		return r;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	public boolean equals(Object obj) {
+		if(obj instanceof IntegerLongMap) {
+			IntegerLongMap m = (IntegerLongMap)obj;
+			Iterator<PrimitiveEntry> i;
+			
+			i = primitiveEntrySet().iterator();
+			if(size() != m.size()) {
+				return false;
+			}
+			while(i.hasNext()) {
+				PrimitiveEntry o = i.next();
+				long v = m.getElement(o.getKey());
+				long p = o.getValue();
+				
+				if(!m.containsKeyElement(o.getKey()) || v != p) {
+					return false;
+				}
+			}
+			return true;
+		}
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	public String toString() {
+		StringBuilder b = new StringBuilder();
+		String d = "";
+		
+		b.append("{");
+		for(PrimitiveEntry e : primitiveEntrySet()) {
+			b.append(d);
+			b.append(e);
+			d = ", ";
+		}
+		b.append("}");
+		return b.toString();
+	}
+	
+}

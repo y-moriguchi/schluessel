@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="collection?">LispCollection$IsCollection</entry>
+<entry key="collection-name">LispCollection$CollectionName</entry>
+<entry key="set?">LispSet$IsSet</entry>
+<entry key="ordered-collection?">LispOrderedCollection$IsOrderedCollection</entry>
+<entry key="make-hash-set">LispHashSet$MakeHashSet</entry>
+<entry key="hash-set">LispHashSet$SubrHashSet</entry>
+<entry key="hash-set?">LispHashSet$IsHashSet</entry>
+<entry key="make-tree-set">LispTreeSet$MakeTreeSet</entry>
+<entry key="tree-set">LispTreeSet$SubrTreeSet</entry>
+<entry key="tree-set?">LispTreeSet$IsTreeSet</entry>
+
+<entry key="bind-enumeration!!">LispCollections$BindEnumeration</entry>
+<entry key="bind-entry-enumeration!!">
+  LispCollections$BindEntryEnumeration
+</entry>
+<entry key="bind-collection!!">LispCollections$BindCollection</entry>
+<entry key="bind-ordered-collection!!">
+  LispCollections$BindOrderedCollection
+</entry>
+<entry key="bind-directional-collection!!">
+  LispCollections$BindDirectionalCollection
+</entry>
+<entry key="bind-bag!!">LispCollections$BindBag</entry>
+<entry key="bind-set!!">LispCollections$BindSet</entry>
+<entry key="bind-sequence!!">LispCollections$BindSequence</entry>
+<entry key="bind-flexible-sequence!!">LispCollections$BindFlexibleSequence</entry>
+<entry key="bind-map!!">LispCollections$BindMap</entry>
+<entry key="bind-dictionary!!">LispCollections$BindDictionary</entry>
+</properties>

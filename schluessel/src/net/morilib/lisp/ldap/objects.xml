@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="bind-ldap-service">BindLdapService</entry>
+<entry key="delete-ldap-service!">DeleteLdapServiceS</entry>
+<entry key="insert-ldap-service!">InsertLdapServiceS</entry>
+<entry key="select-ldap-service">SelectLdapService</entry>
+<entry key="update-ldap-service!">UpdateLdapServiceS</entry>
+</properties>

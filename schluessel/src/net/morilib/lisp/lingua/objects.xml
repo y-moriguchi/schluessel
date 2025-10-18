@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="greek-string-&gt;latin">GreekStringToLatin</entry>
+<entry key="latin-string-&gt;greek">LatinStringToGreek</entry>
+<entry key="normalize-classic-latin">NormalizeClassicLatin</entry>
+<entry key="normalize-modern-latin">NormalizeModernLatin</entry>
+<entry key="latin-string=?">IsLatinStringEq</entry>
+<entry key="latin-string-ci=?">IsLatinStringCiEq</entry>
+<entry key="kana-&gt;romaji">KanaToRomaji</entry>
+<entry key="romaji-&gt;katakana">RomajiToKatakana</entry>
+</properties>

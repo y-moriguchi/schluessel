@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- number matrix -->
+<entry key="complex-vector?">IsComplexVector</entry>
+<entry key="matrix?">IsMatrix</entry>
+<entry key="number-vector?">IsNumberVector</entry>
+<entry key="quaternion-vector?">IsQuaternionVector</entry>
+<entry key="real-vector?">IsRealVector</entry>
+<entry key="list-&gt;matrix">ListToMatrix</entry>
+<entry key="lu-decompose">LuDecompose</entry>
+<entry key="make-matrix">MakeMatrix</entry>
+<entry key="matrix-determinant">MatrixDeterminant</entry>
+<entry key="matrix-eigenvalues">MatrixEigenvalues</entry>
+<entry key="matrix=">MatrixEqual</entry>
+<entry key="matrix-invert">MatrixInvert</entry>
+<entry key="matrix-">MatrixMinus</entry>
+<entry key="matrix*">MatrixMul</entry>
+<entry key="matrix+">MatrixPlus</entry>
+<entry key="solve-linear-equation">SolveLinearEquation</entry>
+<!-- number vector -->
+<entry key="make-number-vector">MakeNumberVector</entry>
+<entry key="number-vector">NumberVector</entry>
+</properties>

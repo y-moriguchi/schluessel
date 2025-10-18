@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="concatenate-2d">Concatenate2d</entry>
+<entry key="make-affine-transform-2d">MakeAffineTransform2d</entry>
+<entry key="make-linear-transform-2d">MakeLinearTransform2d</entry>
+<entry key="make-rotation-by-degree-2d">MakeRotationByDegree2d</entry>
+<entry key="make-rotation-by-radian-2d">MakeRotationByRadian2d</entry>
+<entry key="make-scaling-2d">MakeScaling2d</entry>
+<entry key="make-shearing-2d">MakeShearing2d</entry>
+<entry key="make-squeeze-2d">MakeSqueeze2d</entry>
+<entry key="make-translation-2d">MakeTranslation2d</entry>
+<entry key="reflect-x-2d">ReflectX2d</entry>
+<entry key="reflect-y-2d">ReflectY2d</entry>
+<entry key="rotate-by-degree-2d">RotateByDegree2d</entry>
+<entry key="rotate-by-radian-2d">RotateByRadian2d</entry>
+<entry key="scale-2d">Scale2d</entry>
+<entry key="shear-2d">Shear2d</entry>
+<entry key="squeeze-2d">Squeeze2d</entry>
+<entry key="translate-2d">Translate2d</entry>
+</properties>

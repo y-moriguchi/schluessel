@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- CJKV eras -->
+<entry key="days-from-epoch">DaysFromEpoch</entry>
+<entry key="days-from-new-year-epoch">DaysFromNewYearEpoch</entry>
+<entry key="days-of-month-of-era">DaysOfMonthOfEra</entry>
+<entry key="days-of-year-of-era">DaysOfYearOfEra</entry>
+<entry key="end-of-era">EndOfEra</entry>
+<entry key="epoch-of-era">EpochOfEra</entry>
+<entry key="era-&gt;initial-letter">EraToInitialLetter</entry>
+<entry key="era-&gt;short-description">EraToShortDescription</entry>
+<entry key="era-&gt;string">EraToString</entry>
+<entry key="era-after?">IsEraAfter</entry>
+<entry key="era-before?">IsEraBefore</entry>
+<entry key="in-era?">IsInEra</entry>
+<entry key="japanese-era">JapaneseEra</entry>
+<entry key="leap-month-of-era">LeapMonthOfEra</entry>
+<entry key="months-of-era">MonthsOfEra</entry>
+<entry key="new-year-epoch">NewYearEpoch</entry>
+<entry key="year-of-era">YearOfEra</entry>
+<entry key="years-of-era">YearsOfEra</entry>
+</properties>

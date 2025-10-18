@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="regexp?">IsRegexp</entry>
+<entry key="regexp-replace">RegexpReplace</entry>
+<entry key="regexp-replace-all">RegexpReplaceAll</entry>
+<entry key="regexp-&gt;string">RegexpToString</entry>
+<entry key="rxmatch">Rxmatch</entry>
+<entry key="rxmatch-list">RxmatchList</entry>
+<entry key="string-&gt;regexp">StringToRegexp</entry>
+<entry key="matchrx?">IsMatchrx</entry>
+</properties>

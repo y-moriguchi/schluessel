@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- analysis -->
+<entry key="delta">Delta</entry>
+<entry key="differenciate1">Differenciate1</entry>
+<entry key="integrate1">Integrate1</entry>
+<entry key="differenciatable1?">IsDifferenciatable1</entry>
+<entry key="integratable1?">IsIntegratable1</entry>
+<entry key="substitute1">Substitute1</entry>
+</properties>

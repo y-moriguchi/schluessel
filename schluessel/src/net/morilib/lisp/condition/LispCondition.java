@@ -1,0 +1,70 @@
+/*
+ * Copyright 2009-2010 Yuichiro Moriguchi
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package net.morilib.lisp.condition;
+
+import java.util.List;
+
+import net.morilib.lisp.Datum;
+import net.morilib.lisp.sos.ISlotDatum;
+
+/**
+ *
+ *
+ * @author MORIGUCHI, Yuichiro 2011/09/03
+ */
+public interface LispCondition extends ISlotDatum {
+
+	/**
+	 * 
+	 * @param v
+	 * @return
+	 */
+	public Datum getField(String v);
+
+	/**
+	 * 
+	 * @param v
+	 * @param mesg
+	 */
+	public boolean setField(String v, Datum val);
+
+	/**
+	 * 
+	 * @param type
+	 * @return
+	 */
+	public boolean hasType(LispConditionType type);
+
+	/**
+	 * 
+	 * @return
+	 */
+	public List<LispSimpleCondition> getConditions();
+
+	/**
+	 * 
+	 * @param t
+	 * @return
+	 */
+	public LispSimpleCondition extractCondition(LispConditionType t);
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String describeShort();
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="run-process">RunProcess</entry>
+<entry key="system">SubrSystem</entry>
+</properties>

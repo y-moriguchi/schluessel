@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<!-- statistics test -->
+<entry key="test-fit-chi-squared?">IsTestFitChiSquared</entry>
+<entry key="test-t-1sample?">IsTestT1Sample</entry>
+<entry key="test-t-2sample?">IsTestT2Sample</entry>
+</properties>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="ash">Ash</entry>
+<entry key="bit-field">BitField</entry>
+<entry key="bitwise-if">BitwiseIf</entry>
+<entry key="booleans-&gt;integer">BooleansToInteger</entry>
+<entry key="copy-bit">CopyBit</entry>
+<entry key="copy-bit-field">CopyBitField</entry>
+<entry key="integer-length">IntegerLength</entry>
+<entry key="integer-&gt;list">IntegerToList</entry>
+<entry key="logbit?">IsLogbit</entry>
+<entry key="list-&gt;integer">ListToInteger</entry>
+<entry key="log2-binary-factors">Log2BinaryFactors</entry>
+<entry key="logand">Logand</entry>
+<entry key="logcount">Logcount</entry>
+<entry key="logior">Logior</entry>
+<entry key="lognot">Lognot</entry>
+<entry key="logtest">Logtest</entry>
+<entry key="logxor">Logxor</entry>
+<entry key="reverse-bit-field">ReverseBitField</entry>
+<entry key="rotate-bit-field">RotateBitField</entry>
+<entry key="bitwise-and">Logand</entry>
+<entry key="bitwise-ior">Logior</entry>
+<entry key="bitwise-xor">Logxor</entry>
+<entry key="bitwise-not">Lognot</entry>
+<entry key="bitwise-merge">BitwiseIf</entry>
+<entry key="any-bits-set?">Logtest</entry>
+<entry key="bit-count">Logcount</entry>
+<entry key="first-set-bit">Log2BinaryFactors</entry>
+<entry key="bit-set?">IsLogbit</entry>
+<entry key="arithmetic-shift">Ash</entry>
+</properties>

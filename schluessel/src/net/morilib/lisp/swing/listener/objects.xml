@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="action-listener-add!">ActionListenerAddS</entry>
+<entry key="add-action-listener!">ActionListenerAddS</entry>
+<entry key="item-listener-add!">ItemListenerAddS</entry>
+<entry key="add-item-listener!">ItemListenerAddS</entry>
+<entry key="adjustment-listener-add!">AdjustmentListenerAddS</entry>
+<entry key="add-adjustment-listener!">AdjustmentListenerAddS</entry>
+<entry key="change-listener-add!">ChangeListenerAddS</entry>
+<entry key="add-change-listener!">ChangeListenerAddS</entry>
+<entry key="window-listener-add!">WindowListenerAddS</entry>
+<entry key="add-window-listener!">WindowListenerAddS</entry>
+</properties>

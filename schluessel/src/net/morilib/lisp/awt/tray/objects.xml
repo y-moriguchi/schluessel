@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Subr Props</comment>
+<entry key="add-system-tray!">AddSystemTrayS</entry>
+<entry key="display-tray-icon-message">DisplayTrayIconMessage</entry>
+<entry key="tray-supported?">IsTraySupported</entry>
+<entry key="make-tray-icon">MakeTrayIcon</entry>
+</properties>
