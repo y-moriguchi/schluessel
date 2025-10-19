@@ -434,6 +434,15 @@ ILispQuantity {
 	 */
 	public abstract LispReal remainder(LispReal r);
 
+	/*
+	 * (non-Javadoc)
+	 * @see net.morilib.lisp.LispNumber#isReal()
+	 */
+	@Override
+	public boolean isReal() {
+		return true;
+	}
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#hashCode()
 	 */
